@@ -107,6 +107,15 @@ def resolve_call(current_path, called_name, functions):
     return None
 
 
+# Extract base class names for inheritance handling
+def extract_base_class_names(class_node):
+    base_names = []
+    for base in class_node.bases:
+        if isinstance(base, ast.Name):
+            base_names.append(base.id)
+    return base_names
+
+
 # Returns inheritance class graph (should be a DAG) adjacency list.
 def build_inheritance_graph(classes):
     inheritance_graph = {}
@@ -138,6 +147,30 @@ def reverse_inheritance_graph(classes):
 
     return reverse_graph
 
+
+def reverse_inheritance_graph(classes):
+    # Initialize the reverse graph with empty lists for all classes
+    reverse_graph = {class_name: [] for class_name in classes.keys()}
+
+    # Process each class to build the reverse inheritance relationships
+    for class_name, class_node in classes.items():
+        # Extract base class names
+        base_names = []
+        for base in class_node.bases:
+            if isinstance(base, ast.Name):
+                base_names.append(base.id)
+
+        # Add this class as a subclass to all its base classes
+        for base_class in base_names:
+            # Make sure the base class exists in the reverse graph
+            if base_class in reverse_graph:
+                reverse_graph[base_class].append(class_name)
+            else:
+                # Handle case where a base class isn't in the original classes dict
+                reverse_graph[base_class] = [class_name]
+
+    return reverse_graph
+
 # Check if an expression is a constant float. Returns true if float, false otherwise.
 # Note that in python, variable types are obviously not kept in the AST because
 # they are determined at run-time due to dynamic typing. As such, we have no way
@@ -147,23 +180,26 @@ def is_float(expr):
     return isinstance(expr, ast.Constant) and isinstance(expr.value, float)
 
 # Check if a comparison operator could be flaky. I assume that comparisons are only
-# flaky if either the left or right side is a float.
+# flaky if either the left or right side is a constant float. This obviously isn't
+# comprehensive (e.g. two variable floats), but I wasn't sure how to handle that
+# case with static analysis alone.
 def is_flaky_compare(node):
     if isinstance(node, ast.Compare):
         return any(isinstance(op, (ast.Lt, ast.Gt, ast.LtE, ast.GtE)) for op in node.ops) and \
             (is_float(node.left) or any(is_float(comp) for comp in node.comparators))
     return False
 
-# Extract the assertion type
+# Get the assertion type based on the table mentioned in the project description.
+# If the assertion is something different, we assume it is just a normal assertion
+# based on conditions.
 def extract_assertion_type(assert_string):
     for assertion_type in always_flaky_assertion_types + check_flaky_assertion_types:
         if assertion_type in assert_string:
             return assertion_type
-    return "other"
+    return "assert expr"
 
 # Find approximate assertions in a function
 def find_approximate_assertions(func_node, source_code):
-    """Find approximate assertions inside a function, treating always and sometimes flaky assertions separately."""
     assertions = []
     for stmt in ast.walk(func_node):
         if isinstance(stmt, ast.Call):
@@ -204,15 +240,7 @@ def trace_assertions(start_func, functions, call_graph, source_code, memo=None):
 
     return results
 
-# Extract base class names for inheritance handling
-def extract_base_class_names(class_node):
-    base_names = []
-    for base in class_node.bases:
-        if isinstance(base, ast.Name):
-            base_names.append(base.id)
-    return base_names
-
-# Process a single test file and write findings to CSV.
+# Process a single test file and write assertions to CSV
 def process_file(filepath, writer):
     # Parse the ast tree and fetch the source code
     tree, source_code = read_and_parse(filepath)
@@ -243,7 +271,7 @@ def process_file(filepath, writer):
                 if len(parts) >= 2 and "_class" in parts[-2]:
                     class_name = parts[-2]
                 else:
-                    class_name = ''
+                    class_name = ""
                 func_assertion_mappings[func_name].append([filepath, class_name, method_name, extract_assertion_type(assert_string), lineno, assert_string])
 
     inheritance_assertions = []

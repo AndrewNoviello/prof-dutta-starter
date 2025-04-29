@@ -1,0 +1,79 @@
+Paper #1: https://mir.cs.illinois.edu/lamyaa/publications/fse14.pdf
+
+What is your take-away message from this paper?
+
+My main brief take-away from this paper is that flaky tests seriously undermine regression testing flows,
+but, with targeted effort, can be identified, manifested/reproduced, and fixed.
+This paper seems like it was an absolutely gargantuan manual effort, analyzing 1,000+ commits is no small feat,
+so kudos to the authors for that!
+
+
+What is the motivation for this work (both people problem and technical problem),
+and its distillation into a research question? Why doesn’t the problem have a
+trivial solution? What are the previous solutions and why are they inadequate?
+
+Flaky tests (unit tests, E2E tests, regression tests, etc.) are tests with non-deterministic
+results, often failing or succeeding on different runs without any changes to the CUT,
+making them difficult to even reproduce, let alone fix. They can come from concurrency issues, asynchronous
+operations (like REST API calls, file I/O, etc.), dependencies, and more. These sorts of tests can confuse developers
+(especially in the regression testing context), wasting tons of time in debugging and potentially masking real bugs.
+On the technical side, these sorts of tests also seriously threaten the integrity/effectiveness of regression testing for
+the code covered by flaky tests: in turn, existing approaches to handle such tests (e.g. running them a bunch of times until
+they pass, etc.) are just workarounds, oftentimes wasting tons of time and yielding a high-degree of uncertainty in the code.
+As such, this paper attempts to address the following research questions. How can researchers/developers best find flaky tests?
+What are the most common root causes/categories of flaky tests? When do flaky tests generally arise in a project?
+How to manifest flaky tests? How do developers fix flaky tests?
+
+What is the proposed solution (hypothesis, idea, design)? Why is it believed it will work?
+How does it represent an improvement? How is the solution achieved?
+
+This paper is largely an empirical survey to answer observational questions about
+flaky tests in production open-source software. The authors sought to analyze flaky tests across
+the Apache suite of open-source projects in an attempt to categorize their root causes and identify
+common fix/manifestation strategies. The authors started with 1,129 commits found by keywords in commit messages,
+manually filtering them to see if they were flaky. For each of the flaky test commits, they recorded the root cause
+of the flakiness, how the developers fixed the tests, and how the flakiness may have manifested.
+They used redundancy (multiple of the authors checked each commit) to ensure their classification/categorization was
+accurate. This study was a huge manual effort, seemingly offering the first comprehensive empirical data on flaky tests in
+real-world projects.
+
+
+What is the author’s evaluation of the solution? What logic, argument, evidence,
+artifacts (e.g., a proof-of-concept system), or experiments are presented in support of the idea?
+
+There were no real experiments conducted in the study and no artifacts were created for the study: it was
+primarily an empirical survey. The authors were not really making an argument about the flaky tests, and, in fact,
+were hopefully articulating an unbiased catalog of observations. Again, the evidence used in the paper was 1,000+ commits
+from open-source repositories affiliated with the Apache Software Foundation.
+
+
+What are future directions for this research (author’s and yours, perhaps driven by shortcomings
+or other critiques)?
+
+I think one particularly interesting extension of this research is in generating and examining tests for
+AI-native applications, where the behavior of the system is impacted significantly by the output of, for example,
+LLMs. *Note that these systems would probably be considered to have flakiness in the CUT, not in the tests, but it seems
+like it more or less results in the same thing - nondeterminism in test outputs. Of course, transformers are naturally deterministic,
+but, in practice many LLMs (including Claude and ChatGPT) use top-p/nucleus sampling (take the output tokens with the highest
+probabilities until reaching a cumulative probability threshold) from the output distribution, leading to stochasticity in
+E2E usage (which would be the behavior from API calls, etc.). Given this stochasticity, basically any test on the output of an
+LLM would be flaky. Note that most post-training methods, such as RM + PPO, DPO, etc. tend to sharpen the output distributions
+of the LLMs, resulting in more stability for such flaky tests, minimizing the stochasticity. Thus, some future directions for
+research in this AI-native area could include: 1) whenever calling an LLM, make sure to get the logits directly (ChatGPT supports
+this, not sure about Claude, etc.) and take the argmax token over the distribution, or 2) mapping the logits through a small model
+that is fine-tuned with post-training methods to sharpen the distributions, then still using top-p sampling (this could be advantageous
+in the case where the flaky tests only run after many LLM API calls, e.g. a CoT pipeline to solve for some ultimately fixed output, such
+that we might want to preserve some stochasticity in the middle phases).
+
+
+What questions are you left with? What questions would you like to raise in an open discussion of the work (review
+interesting and controversial points, above)? What do you find difficult to understand? List as many as you can, at least three,
+not including questions that can be answered quickly by searching the internet.
+
+1) Would it be possible to systematically attempt the ‘common fixes’, then re-run (multiple times or with some pattern)
+the flaky tests to see if they are fixed (it doesn’t seem like a linter or the paper’s methods could verify that flaky tests were actually
+fixed, as they are only looking at paradigms, not specific examples)?
+2) As a mere curiosity, it seems like the classification of how flaky tests were fixed would be a very easy task for an LLM. Could this study
+be made exponentially larger with the manual work done by an LLM?
+3) Can developers feasibly implement the manifestation strategies themselves without too much experimentation (for instance, finding proper time
+delay lengths that would expose an async problem)? Could this sort of behavior be integrated into a linter?

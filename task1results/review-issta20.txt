@@ -1,0 +1,77 @@
+Paper #2: https://saikatdutta.web.illinois.edu/papers/flash-issta20.pdf
+
+What is your take-away message from this paper?
+
+Obviously, randomness is really important in a lot of ML applications, frameworks, etc.
+In turn, testing such non-deterministic programs can be very difficult due to the abundance of
+possibly flaky tests. Note that in many cases, fixing random seeds to try to control this
+non-determinism is not really feasible or results in ‘brittle’ software, so is not an ideal solution.
+Developers typically fix these flaky tests by just adjusting the assertion thresholds; thus, the main
+takeaway is that this adjustment can be done algorithmically using a convergence test (the researchers call
+this procedure, FLASH).
+
+
+What is the motivation for this work (both people problem and technical problem), and its
+distillation into a research question? Why doesn’t the problem have a trivial solution? What are
+the previous solutions and why are they inadequate?
+
+Obviously, ML and probabilistic programming frameworks are widely used and ensuring
+they have adequate tests is essential; however, based on the nature of these libraries, many
+of their operations have a degree of randomness, making it difficult to build deterministic,
+non-flaky tests that still offer some rigorous guarantees on the CUT. Previous solutions included fixing
+random seeds, which seems like the natural, trivial solution: however, that often renders the software
+brittle and is generally not really feasible/sensible in large projects. As such, there is clearly no
+one-size-fits-all solution to the complexities algorithmic non-determinism poses to standard unit & regression
+testing. Therefore, the researchers sought to investigate whether they could detect true flaky
+tests using convergence tests while still respecting the stochasticity of the operations in the frameworks.
+
+
+What is the proposed solution (hypothesis, idea, design)? Why is it believed it will work?
+How does it represent an improvement? How is the solution achieved?
+
+Starting from 345 projects, the authors identified 75 bug reports and commits
+related to flaky tests across 20 projects. They analyzed the relevant code with redundancy
+(multiple authors reviewed each one), categorizing the cause of the flakiness. In turn, the authors
+designed a system called FLASH to systematically detect flaky tests caused by algorithmic non-determinism.
+FLASH runs tests multiple times with different random number seeds, using a convergence test to determine
+how many times to run each test before deciding whether it is flaky or not. FLASH found 11 previously
+unknown flaky tests in the 20 relevant projects, finding flakiness in the tests that even the developers had not seen.
+
+
+What is the author’s evaluation of the solution? What logic, argument, evidence,
+artifacts (e.g., a proof-of-concept system), or experiments are presented in support of the idea?
+
+In the paper, FLASH was evaluated on 20 ML or probabilistic programming related open-source
+repositories, mostly quite high-profile projects. In those projects, FLASH identified 11 previously
+unknown flaky tests, which the authors then notified the project developers about. No controlled
+experiments were conducted in this study, but an important artifact of the paper was the FLASH system
+itself, a more systematic approach to finding flaky tests that are affected by algorithmic non-determinism.
+The authors argue, and prove with the aforementioned evidence, that the FLASH system is thus superior to more
+heuristic-based methods that are quite common in practice.
+
+
+What are future directions for this research (author’s and yours, perhaps driven by shortcomings
+or other critiques)?
+
+I think the LLM stuff mentioned for the previous paper also applies here. Some of the questions below
+also are relevant for this (I wrote the questions first!). On top of that, I think one clear direction for
+future research is systematic fixing of these flaky tests caused by algorithmic non-determinism. FLASH finds
+the flaky tests, but the paper seems to imply that the researchers fixed them for the 6 PRs manually.
+
+
+What questions are you left with? What questions would you like to raise in an open discussion of the work
+(review interesting and controversial points, above)? What do you find difficult to understand?
+List as many as you can, at least three, not including questions that can be answered quickly by searching the internet.
+
+1) Of course, the paper mentions that FLASH is only to be used for flaky tests caused by algorithmic non-determinism.
+Are there any similar statistical methods for flaky tests that are caused by concurrency or async operations?
+For instance, on a production REST API, could tests be run at all times of day, days of week, seasons, etc.,
+to get an accurate distribution of wait times for async endpoint calls across all loads? Could this be used to help with flaky tests?
+2) How long would it take to run FLASH on a large project? Is it possible to run it on complex (and computationally intensive)
+E2E non-deterministic algorithms? I am curious about the practicality of using such a system in real,
+day-to-day software development. For E2E tests, I would guess that there has to be a relatively simple way
+that runs could be cached across CUT changes and only tests relevant to the changes could be re-analyzed, with
+the results propagated to the other tests.
+3) Given that FLASH just samples random seeds, how do we know that there is any sense of continuity amongst
+the random seeds for the distributions (i.e. is there actually a meaningful underlying distribution?)? 
+I feel like if seeds produce wildly different results in inconsistent ways, then the convergence test might not really work.

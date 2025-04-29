@@ -1,0 +1,281 @@
+filepath,testclass,testname,assertion type,line number,assert string
+./projects/sonnet\sonnet\src\axis_norm_test.py,LayerNormTest_class,testDataFormatAgnosticVar,assertAllClose,78,"self.assertAllClose(c_last_output.numpy(), c_first_output.numpy())"
+./projects/sonnet\sonnet\src\axis_norm_test.py,LayerNormTest_class,testDataFormatAgnosticTensor,assertAllClose,125,"self.assertAllClose(c_last_output.numpy(), c_first_output.numpy())"
+./projects/sonnet\sonnet\src\axis_norm_test.py,LayerNormTest_class,test5DDataFormatAgnostic,assertAllClose,274,"self.assertAllClose(
+        c_last_output.numpy(), c_first_output.numpy(), atol=1e-5, rtol=1e-5)"
+./projects/sonnet\sonnet\src\axis_norm_test.py,LayerNormTest_class,test3DDataFormatAgnostic,assertAllClose,297,"self.assertAllClose(
+        c_last_output.numpy(), c_first_output.numpy(), atol=1e-5, rtol=1e-5)"
+./projects/sonnet\sonnet\src\batch_norm_test.py,BaseBatchNormTest_class,testUsingTestStats,assertAllClose,181,"self.assertAllClose(x, 2.0, rtol=1e-5, atol=1e-3)"
+./projects/sonnet\sonnet\src\conv_test.py,ConvTest_class,testFunction,assertAllClose,150,"self.assertAllClose(self.evaluate(y1), self.evaluate(y2), atol=1e-4)"
+./projects/sonnet\sonnet\src\conv_test.py,Conv2DTest_class,testComputationPaddingSame,assertAllClose,244,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_test.py,Conv2DTest_class,testComputationPaddingValid,assertAllClose,265,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_test.py,Conv1DTest_class,testComputationPaddingSame,assertAllClose,289,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_test.py,Conv1DTest_class,testComputationPaddingValid,assertAllClose,310,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_test.py,Conv3DTest_class,testComputationPaddingSame,assertAllClose,341,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_test.py,Conv3DTest_class,testComputationPaddingValid,assertAllClose,364,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_transpose_test.py,ConvTransposeTest_class,testGraphConv,assertAllClose,109,"self.assertAllClose(self.evaluate(y1), self.evaluate(y2), atol=1e-4)"
+./projects/sonnet\sonnet\src\conv_transpose_test.py,Conv2DTransposeTest_class,testComputationPaddingSame,assertAllClose,235,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_transpose_test.py,Conv2DTransposeTest_class,testComputationPaddingValid,assertAllClose,258,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_transpose_test.py,Conv1DTransposeTest_class,testComputationPaddingSame,assertAllClose,296,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_transpose_test.py,Conv1DTransposeTest_class,testComputationPaddingValid,assertAllClose,318,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_transpose_test.py,Conv3DTransposeTest_class,testComputationPaddingSame,assertAllClose,345,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\conv_transpose_test.py,Conv3DTransposeTest_class,testComputationPaddingValid,assertAllClose,373,"self.assertAllClose(self.evaluate(out), expected_out)"
+./projects/sonnet\sonnet\src\depthwise_conv_test.py,DepthwiseConvTest_class,testFunction,assertAllClose,95,"self.assertAllClose(self.evaluate(y1), self.evaluate(y2), atol=1e-4)"
+./projects/sonnet\sonnet\src\depthwise_conv_test.py,DepthwiseConvTest_class,testComputationSame,assertAllClose,172,"self.assertAllClose(np.reshape(out.numpy(), [5, 5]), expected_out)"
+./projects/sonnet\sonnet\src\depthwise_conv_test.py,DepthwiseConvTest_class,testComputationValid,assertAllClose,190,"self.assertAllClose(np.reshape(out.numpy(), [3, 3]), expected_out)"
+./projects/sonnet\sonnet\src\depthwise_conv_test.py,DepthwiseConvTest_class,testComputationValidMultiChannel,assertAllClose,207,"self.assertAllClose(np.reshape(out.numpy(), [3, 3, 3]), expected_out)"
+./projects/sonnet\sonnet\src\depthwise_conv_test.py,DepthwiseConvTest_class,testSharing,assertAllClose,223,"self.assertAllClose(conv1(x1), conv1(x2))"
+./projects/sonnet\sonnet\src\depthwise_conv_test.py,DepthwiseConvTest_class,testSharing,assertAllClose,231,"self.assertAllClose(conv1(x1), conv1(x2))"
+./projects/sonnet\sonnet\src\dropout_test.py,DropoutTest_class,test_sum_close,assertAllClose,31,"self.assertAllClose(
+        tf.reduce_sum(mod(x, is_training=True)),
+        tf.reduce_sum(mod(x, is_training=False)),
+        rtol=rtol)"
+./projects/sonnet\sonnet\src\dropout_test.py,DropoutTest_class,test_dropout_rate,assertAllClose,47,"self.assertAllClose(kept, 1000 * keep_prob, rtol=rtol)"
+./projects/sonnet\sonnet\src\group_norm_test.py,GroupNormTest_class,testDataFormatAgnosticVar,assertAllClose,78,"self.assertAllClose(c_last_output.numpy(), c_first_output.numpy())"
+./projects/sonnet\sonnet\src\group_norm_test.py,GroupNormTest_class,testDataFormatAgnosticTensor,assertAllClose,121,"self.assertAllClose(c_last_output, c_first_output, rtol=1e-5)"
+./projects/sonnet\sonnet\src\group_norm_test.py,GroupNormTest_class,test5DDataFormatAgnostic,assertAllClose,293,"self.assertAllClose(
+        c_last_output.numpy(), c_first_output.numpy(), atol=1e-5, rtol=1e-5)"
+./projects/sonnet\sonnet\src\group_norm_test.py,GroupNormTest_class,test3DDataFormatAgnostic,assertAllClose,313,"self.assertAllClose(
+        c_last_output.numpy(), c_first_output.numpy(), atol=1e-5, rtol=1e-5)"
+./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testShapesValues,assertAllClose,358,"self.assertAllClose(
+          np.dot(t.T, t), np.eye(t.shape[1]), rtol=tol, atol=tol)"
+./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testShapesValues,assertAllClose,361,"self.assertAllClose(
+          np.dot(t, t.T), np.eye(t.shape[0]), rtol=tol, atol=tol)"
+./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testWithTFFunction,assertAllClose,514,"self.assertAllClose(expected, x)"
+./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testBatchAgnostic,assertAllClose,530,"self.assertAllClose(expected, x)"
+./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testShapesValues,assertAllClose,358,"self.assertAllClose(
+          np.dot(t.T, t), np.eye(t.shape[1]), rtol=tol, atol=tol)"
+./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testShapesValues,assertAllClose,361,"self.assertAllClose(
+          np.dot(t, t.T), np.eye(t.shape[0]), rtol=tol, atol=tol)"
+./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testWithTFFunction,assertAllClose,514,"self.assertAllClose(expected, x)"
+./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testBatchAgnostic,assertAllClose,530,"self.assertAllClose(expected, x)"
+./projects/sonnet\sonnet\src\linear_test.py,LinearTest_class,testCallMultiBatch,assertAllClose,106,"self.assertAllClose(tf_output, np_output, atol=1e-2, rtol=5e-2)"
+./projects/sonnet\sonnet\src\linear_test.py,LinearTest_class,testFunction,assertAllClose,123,"self.assertAllClose(self.evaluate(y1), self.evaluate(y2), atol=1e-4)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testCall,assertAllClose,28,"self.assertAllClose(ema(3.0).numpy(), 3.0)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testCall,assertAllClose,29,"self.assertAllClose(ema(6.0).numpy(), 5.0)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testUpdateAndValue,assertAllClose,34,"self.assertAllClose(ema.value.numpy(), 3.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testUpdateAndValue,assertAllClose,37,"self.assertAllClose(ema.value.numpy(), 5.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testReset,assertAllClose,41,"self.assertAllClose(ema(3.0).numpy(), 3.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testReset,assertAllClose,47,"self.assertAllClose(ema(3.0).numpy(), 3.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testResetVector,assertAllClose,55,"self.assertAllClose(ema.value.numpy(), tf.zeros_like(random_input))"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testValueEqualsLatestUpdate,assertAllClose,61,"self.assertAllClose(ema(3.0).numpy(), 3.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testValueEqualsLatestUpdate,assertAllClose,62,"self.assertAllClose(ema.value.numpy(), 3.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testValueEqualsLatestUpdate,assertAllClose,64,"self.assertAllClose(ema(6.0).numpy(), 5.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testValueEqualsLatestUpdate,assertAllClose,65,"self.assertAllClose(ema.value.numpy(), 5.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testWithTFFunction,assertAllClose,75,"self.assertAllClose(
+          ema_1(x).numpy(), ema_func(x).numpy(), atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testResetWithTFFunction,assertAllClose,82,"self.assertAllClose(ema_func(3.0).numpy(), 3.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testResetWithTFFunction,assertAllClose,87,"self.assertAllClose(ema_func(3.0).numpy(), 3.0, atol=1e-3, rtol=1e-5)"
+./projects/sonnet\sonnet\src\pad_test.py,PadTest_class,test_same_padding,assertAllClose,76,"self.assertAllClose(y1.numpy(), y2.numpy())"
+./projects/sonnet\sonnet\src\parallel_linear_test.py,ParallelLinearTest_class,test_behaves_same_as_stacked_linears,assertAllClose,49,"self.assertAllClose(parallel_outputs.numpy(), stacked_outputs.numpy())"
+./projects/sonnet\sonnet\src\recurrent_test.py,VanillaRNNTest_class,testComputationAgainstNumPy,assertAllClose,54,"self.assertAllClose(outputs, expected_output, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,VanillaRNNTest_class,testComputationAgainstNumPy,assertAllClose,55,"self.assertAllClose(next_state, expected_output, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,VanillaRNNTest_class,testInitialization,assertAllClose,77,"self.assertAllClose(self.evaluate(v), self.evaluate(tf.ones_like(v)))"
+./projects/sonnet\sonnet\src\recurrent_test.py,DeepRNNTest_class,testComputationAgainstNumPy,assertAllClose,107,"self.assertAllClose(outputs, expected_outputs)"
+./projects/sonnet\sonnet\src\recurrent_test.py,DeepRNNTest_class,testComputationAgainstNumPy,assertAllClose,108,"self.assertAllClose(next_state, tuple(expected_next_state))"
+./projects/sonnet\sonnet\src\recurrent_test.py,DeepRNNTest_class,testComputationAgainstNumPyWithCallables,assertAllClose,120,"self.assertAllClose(outputs, np.sign(np.tanh(inputs)))"
+./projects/sonnet\sonnet\src\recurrent_test.py,DeepRNNTest_class,testInitialState,assertAllClose,128,"self.assertAllClose(prev_state[0], core0.initial_state(self.batch_size))"
+./projects/sonnet\sonnet\src\recurrent_test.py,DeepRNNTest_class,testInitialState,assertAllClose,129,"self.assertAllClose(prev_state[1], core1.initial_state(self.batch_size))"
+./projects/sonnet\sonnet\src\recurrent_test.py,LSTMTest_class,testComputationAgainstNumPy,assertAllClose,193,"self.assertAllClose(outputs, next_state.hidden, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,LSTMTest_class,testComputationAgainstNumPy,assertAllClose,194,"self.assertAllClose(expected_hidden, next_state.hidden, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,LSTMTest_class,testComputationAgainstNumPy,assertAllClose,195,"self.assertAllClose(expected_cell, next_state.cell, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,LSTMTest_class,testInitialization,assertAllClose,222,"self.assertAllClose(self.evaluate(v), self.evaluate(tf.ones_like(v)))"
+./projects/sonnet\sonnet\src\recurrent_test.py,LSTMTest_class,testRecurrentDropout,assertAllClose,242,"self.assertAllClose(train_output, test_output, rtol=rtol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrolledLSTMTest_class,testComputationAgainstLSTM,assertAllClose,294,"self.assertAllClose(output_sequence, expected_output_sequence, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrolledLSTMTest_class,testComputationAgainstLSTM,assertAllClose,295,"self.assertAllClose(
+        final_state.hidden, expected_final_state.hidden, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrolledLSTMTest_class,testComputationAgainstLSTM,assertAllClose,297,"self.assertAllClose(final_state.cell, expected_final_state.cell, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrolledLSTMTest_class,testInitialization,assertAllClose,345,"self.assertAllClose(self.evaluate(v), self.evaluate(tf.ones_like(v)))"
+./projects/sonnet\sonnet\src\recurrent_test.py,ConvNDLSTMTest_class,testComputationAgainstNumPy,assertAllClose,399,"self.assertAllClose(outputs, next_state.hidden, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,ConvNDLSTMTest_class,testComputationAgainstNumPy,assertAllClose,400,"self.assertAllClose(expected_hidden, next_state.hidden, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,ConvNDLSTMTest_class,testComputationAgainstNumPy,assertAllClose,401,"self.assertAllClose(expected_cell, next_state.cell, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,ConvNDLSTMTest_class,testInitialization,assertAllClose,439,"self.assertAllClose(self.evaluate(v), self.evaluate(tf.ones_like(v)))"
+./projects/sonnet\sonnet\src\recurrent_test.py,GRUTest_class,testComputationAgainstNumPy,assertAllClose,470,"self.assertAllClose(outputs, next_state, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,GRUTest_class,testComputationAgainstNumPy,assertAllClose,471,"self.assertAllClose(self.evaluate(next_state), expected_state, atol=atol)"
+./projects/sonnet\sonnet\src\recurrent_test.py,GRUTest_class,testInitialization,assertAllClose,493,"self.assertAllClose(self.evaluate(v), self.evaluate(tf.ones_like(v)))"
+./projects/sonnet\sonnet\src\recurrent_test.py,CuDNNGRUTest_class,testComputationAgainstTF,assertAllClose,547,"self.assertAllClose(outputs, expected_outputs)"
+./projects/sonnet\sonnet\src\recurrent_test.py,CuDNNGRUTest_class,testComputationAgainstTF,assertAllClose,548,"self.assertAllClose(states[-1], expected_final_state)"
+./projects/sonnet\sonnet\src\recurrent_test.py,CuDNNGRUTest_class,testInitialization,assertAllClose,570,"self.assertAllClose(self.evaluate(v), self.evaluate(tf.ones_like(v)))"
+./projects/sonnet\sonnet\src\recurrent_test.py,TrainableStateTest_class,testMasked,assertAllClose,657,"self.assertAllClose(s, tf.zeros_like(s))"
+./projects/sonnet\sonnet\src\recurrent_test.py,TrainableStateTest_class,testForCore,assertAllClose,662,"self.assertAllClose(
+        trainable_state(batch_size=42), core.initial_state(batch_size=42))"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testFlat,assertAllClose,703,"self.assertAllClose(
+        output_sequence,
+        [inputs * (h + t) for t, inputs in enumerate(input_sequence)])"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testFlat,assertAllClose,706,"self.assertAllClose(final_state, (tf.cast(self.num_steps, tf.float32), h))"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testNestedInputs,assertAllClose,720,"self.assertAllClose(
+        output_sequence,
+        [inputs * (h + t) for t, inputs in enumerate(input_sequence)])"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testNestedInputs,assertAllClose,723,"self.assertAllClose(final_state, (tf.cast(self.num_steps, tf.float32), h))"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testNestedOutputs,assertAllClose,739,"self.assertAllClose(output_sequence, (expected_outputs,) * num_replicas)"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testNestedOutputs,assertAllClose,740,"self.assertAllClose(final_state, (tf.cast(self.num_steps, tf.float32), h))"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testVariableLengthOneZeroLength,assertAllClose,816,"self.assertAllClose(output_sequence[t, b], output_sequence[t - 1,
+                                                                       b])"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testVariableLengthRange,assertAllClose,816,"self.assertAllClose(output_sequence[t, b], output_sequence[t - 1,
+                                                                       b])"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testVariableLengthAllFull,assertAllClose,832,"self.assertAllClose(output_sequence, expected_output_sequence)"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testVariableLengthAllFull,assertAllClose,833,"self.assertAllClose(final_state, expected_final_state)"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testVariableLengthAllEmpty,assertAllClose,846,"self.assertAllClose(output_sequence, tf.zeros_like(output_sequence))"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testVariableLengthAllEmpty,assertAllClose,848,"self.assertAllClose(final_state[0], self.num_steps)"
+./projects/sonnet\sonnet\src\recurrent_test.py,UnrollTest_class,testVariableLengthAllEmpty,assertAllClose,849,"self.assertAllClose(final_state[1], initial_state[1])"
+./projects/sonnet\sonnet\src\regularizers_test.py,L1Test_class,testAgainstNumPy,assertAllClose,32,"self.assertAllClose(
+        regularizer(tensors),
+        sum(l1(regularizer.scale, self.evaluate(t)) for t in tensors))"
+./projects/sonnet\sonnet\src\regularizers_test.py,L1Test_class,testEmpty,assertAllClose,41,"self.assertAllClose(regularizers.L1(0.01)([]), 0.0)"
+./projects/sonnet\sonnet\src\regularizers_test.py,L2Test_class,testAgainstNumPy,assertAllClose,53,"self.assertAllClose(
+        regularizer(tensors),
+        sum(l2(regularizer.scale, self.evaluate(t)) for t in tensors))"
+./projects/sonnet\sonnet\src\regularizers_test.py,L2Test_class,testEmpty,assertAllClose,62,"self.assertAllClose(regularizers.L2(0.01)([]), 0.0)"
+./projects/sonnet\sonnet\src\regularizers_test.py,OffDiagonalOrthogonalTest_class,testAgainstNumPy,assertAllClose,76,"self.assertAllClose(
+        regularizer(tensors),
+        sum(odo(regularizer.scale, self.evaluate(t)) for t in tensors),
+        atol=atol)"
+./projects/sonnet\sonnet\src\regularizers_test.py,OffDiagonalOrthogonalTest_class,testEmpty,assertAllClose,86,"self.assertAllClose(regularizers.OffDiagonalOrthogonal(0.01)([]), 0.0)"
+./projects/sonnet\sonnet\src\reshape_test.py,ReshapeTest_class,testReverse,assertAllClose,118,"self.assertAllClose(output_r_np, input_np)"
+./projects/sonnet\sonnet\src\conformance\checkpoint_test.py,GoldenCheckpointsTest_class,test_save_load,assertAllClose,92,"self.assertAllClose(
+          variable.read_value(),
+          goldens.range_like(variable),
+          msg=variable.name)"
+./projects/sonnet\sonnet\src\conformance\checkpoint_test.py,GoldenCheckpointsTest_class,test_save_then_load_new_instance,assertAllClose,121,"self.assertAllClose(
+          variable.read_value(),
+          goldens.range_like(variable),
+          msg=variable.name)"
+./projects/sonnet\sonnet\src\conformance\checkpoint_test.py,ReplicatorCheckpointTest_class,test_restore_on_create_in_replica_context,assertAllClose,371,"self.assertAllClose(
+            normal.read_value(), distributed.read_value(), msg=normal.name)"
+./projects/sonnet\sonnet\src\distribute\distributed_batch_norm_test.py,CrossReplicaBatchNormTest_class,testWithMultipleDevicesMirrored,assertAllClose,78,"self.assertAllClose(out, expected_out)"
+./projects/sonnet\sonnet\src\distribute\distributed_batch_norm_test.py,CrossReplicaBatchNormTest_class,testWithTpuStrategy,assertAllClose,116,"self.assertAllClose(out, expected_out)"
+./projects/sonnet\sonnet\src\functional\haiku_test.py,NetworkTest_class,test_state_ema,assertAllClose,232,"self.assertAllClose(y.numpy(), 3.0)"
+./projects/sonnet\sonnet\src\functional\haiku_test.py,NetworkTest_class,test_state_ema,assertAllClose,234,"self.assertAllClose(y.numpy(), 5.0)"
+./projects/sonnet\sonnet\src\functional\jax_test.py,GradTest_class,test_grad,assertAllClose,58,"self.assertAllClose(g(x).numpy(), (2 * x).numpy())"
+./projects/sonnet\sonnet\src\functional\jax_test.py,GradTest_class,test_argnums,assertAllClose,66,"self.assertAllClose(gx.numpy(), (2 * x).numpy())"
+./projects/sonnet\sonnet\src\functional\jax_test.py,GradTest_class,test_argnums,assertAllClose,67,"self.assertAllClose(gy.numpy(), (2 * y).numpy(), rtol=1e-3)"
+./projects/sonnet\sonnet\src\functional\jax_test.py,GradTest_class,test_has_aux,assertAllClose,74,"self.assertAllClose(gx.numpy(), (2 * x).numpy())"
+./projects/sonnet\sonnet\src\functional\optimizers_test.py,OptimizersTest_class,test_sgd,assertAllClose,41,"self.assertAllClose(p.numpy(), 1. - (0.01 * 1))"
+./projects/sonnet\sonnet\src\nets\vqvae_test.py,VqvaeTest_class,testConstruct,assertAllClose,68,"self.assertAllClose(distances, vq_output_np['distances'], atol=4e-2)"
+./projects/sonnet\sonnet\src\nets\dnc\control_test.py,FeedForwardTest_class,testValues,assertAllClose,74,"self.assertAllClose(output.numpy(), expected_output, atol=1e-2)"
+./projects/sonnet\sonnet\src\nets\dnc\control_test.py,FeedForwardTest_class,testValues,assertAllClose,76,"self.assertAllClose(prev_state.numpy(), next_state.numpy(), atol=5e-3)"
+./projects/sonnet\sonnet\src\nets\dnc\read_test.py,ReadTest_class,testValues,assertAllClose,50,"self.assertAllClose(
+        mem.numpy()[0, indices, :], read_values.numpy()[0, ...], atol=2e-3)"
+./projects/sonnet\sonnet\src\nets\dnc\util_test.py,LinearTest_class,testLinearOutputOneModule,assertAllClose,126,"self.assertAllClose(expected_output, output.numpy(), atol=self.get_atol())"
+./projects/sonnet\sonnet\src\nets\dnc\util_test.py,LinearTest_class,testLinearOutputTwoModules,assertAllClose,142,"self.assertAllClose(expected_output, output.numpy(), atol=self.get_atol())"
+./projects/sonnet\sonnet\src\nets\dnc\write_test.py,EraseRowsTest_class,testValues,assertAllClose,64,"self.assertAllClose(
+        erased_mem_np[0, indices_np, :],
+        np.zeros((num_writes, word_size)),
+        atol=2e-3)"
+./projects/sonnet\sonnet\src\nets\dnc\write_test.py,EraseRowsTest_class,testValues,assertAllClose,70,"self.assertAllClose(
+        erased_mem_np[0, excluded_indices_np, :],
+        mem_np[0, excluded_indices_np, :],
+        atol=2e-3)"
+./projects/sonnet\sonnet\src\nets\dnc\write_test.py,EraseTest_class,testValues,assertAllClose,117,"self.assertAllClose(
+        erased_mem_np[0, indices, :],
+        np.zeros((num_writes, word_size)),
+        atol=2e-3)"
+./projects/sonnet\sonnet\src\nets\dnc\write_test.py,EraseTest_class,testValues,assertAllClose,123,"self.assertAllClose(
+        erased_mem_np[0, excluded_indices, :],
+        mem_np[0, excluded_indices, :],
+        atol=2e-3)"
+./projects/sonnet\sonnet\src\nets\dnc\write_test.py,EraseAndWriteTest_class,testValues,assertAllClose,169,"self.assertAllClose(
+        written_mem.numpy()[0, indices, :], write_values.numpy()[0], atol=2e-3)"
+./projects/sonnet\sonnet\src\nets\dnc\write_test.py,AdditiveWriteTest_class,testValues,assertAllClose,211,"self.assertAllClose(
+        written_mem.numpy()[0, indices, :],
+        write_values_np[0] + mem_np[0, indices, :],
+        atol=2e-3)"
+./projects/sonnet\sonnet\src\nets\dnc\write_test.py,AdditiveWriteTest_class,testValues,assertAllClose,218,"self.assertAllClose(written_mem_copy, mem_np, atol=2e-3)"
+./projects/sonnet\sonnet\src\nets\dnc\write_test.py,AdditiveWriteTest_class,testValues,assertAllClose,220,"self.assertAllClose(not_written_mem_np, mem_np, atol=2e-3)"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testDense,assertAllClose,65,"self.assertAllClose([[0.999, 1.999], [2.999, 3.999]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testDense,assertAllClose,69,"self.assertAllClose([[0.998, 1.998], [2.998, 3.998]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testDense,assertAllClose,73,"self.assertAllClose([[0.997, 1.997], [2.997, 3.997]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,97,"self.assertAllClose([[0.999], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,98,"self.assertAllClose([[3.0], [3.999]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,100,"self.assertAllClose(tf_parameters[0].numpy(), parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,101,"self.assertAllClose(tf_parameters[1].numpy(), parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,104,"self.assertAllClose([[0.998], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,105,"self.assertAllClose([[3.0], [3.998]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,107,"self.assertAllClose(tf_parameters[0].numpy(), parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,108,"self.assertAllClose(tf_parameters[1].numpy(), parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,111,"self.assertAllClose([[0.997], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,112,"self.assertAllClose([[3.0], [3.997]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,114,"self.assertAllClose(tf_parameters[0].numpy(), parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testSparse,assertAllClose,115,"self.assertAllClose(tf_parameters[1].numpy(), parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testVariableHyperParams,assertAllClose,123,"self.assertAllClose([[0.999, 1.999], [2.999, 3.999]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testVariableHyperParams,assertAllClose,128,"self.assertAllClose([[0.899, 1.899], [2.899, 3.899]],
+                        [x.numpy() for x in parameters],
+                        rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testHyperParamDTypeConversion,assertAllClose,143,"self.assertAllClose([[0.999, 1.999], [2.999, 3.999]],
+                        [x.numpy() for x in parameters],
+                        rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDense,assertAllClose,64,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDense,assertAllClose,68,"self.assertAllClose([[-0.45, 0.55], [2.13, 3.13]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDense,assertAllClose,72,"self.assertAllClose([[-1.805, -0.805], [1.317, 2.317]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDenseNesterov,assertAllClose,82,"self.assertAllClose([[0.05, 1.05], [2.43, 3.43]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDenseNesterov,assertAllClose,86,"self.assertAllClose([[-1.305, -0.305], [1.617, 2.617]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDenseNesterov,assertAllClose,90,"self.assertAllClose([[-3.0245, -2.0245], [0.5853, 1.5853]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,110,"self.assertAllClose([[1.0 - 3.0 * 0.1], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,111,"self.assertAllClose([[3.0], [4.0 - 3.0 * 0.01]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,114,"self.assertAllClose([[0.7 - 3.0 * 0.19], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,115,"self.assertAllClose([[3.0], [3.97 - 3.0 * 0.019]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,118,"self.assertAllClose([[0.13 - 3.0 * 0.271], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,119,"self.assertAllClose([[3.0], [3.913 - 3.0 * 0.0271]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,139,"self.assertAllClose([[0.43], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,140,"self.assertAllClose([[3.0], [3.943]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,143,"self.assertAllClose([[-0.383], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,144,"self.assertAllClose([[3.0], [3.8617]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,147,"self.assertAllClose([[-1.4147], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,148,"self.assertAllClose([[3.0], [3.75853]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testVariableHyperParams,assertAllClose,161,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testVariableHyperParams,assertAllClose,168,"self.assertAllClose([[0.4455, 1.4455], [2.6673, 3.6673]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testHyperParamDTypeConversion,assertAllClose,180,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\optimizer_tests.py,OptimizerTestBase_class,testNoneUpdate,assertAllClose,58,"self.assertAllClose(1., parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDense,assertAllClose,68,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDense,assertAllClose,72,"self.assertAllClose([[0.454357, 1.454357], [2.454357, 3.454357]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDense,assertAllClose,76,"self.assertAllClose([[0.262262, 1.262262], [2.262262, 3.262262]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDenseCentered,assertAllClose,85,"self.assertAllClose([[0.666667, 1.666667], [2.666667, 3.666667]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDenseCentered,assertAllClose,89,"self.assertAllClose([[0.41176, 1.41176], [2.41176, 3.41176]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDenseCentered,assertAllClose,93,"self.assertAllClose([[0.186776, 1.186776], [2.186776, 3.186776]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,113,"self.assertAllClose([[-8.486831], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,114,"self.assertAllClose([[3.0], [-5.486784]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,117,"self.assertAllClose([[-15.369301], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,118,"self.assertAllClose([[3.0], [-12.369237]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,121,"self.assertAllClose([[-21.132141], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,122,"self.assertAllClose([[3.0], [-18.132067]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,141,"self.assertAllClose([[-8.999999], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,142,"self.assertAllClose([[3.0], [-5.999944]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,145,"self.assertAllClose([[-16.64719], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,146,"self.assertAllClose([[3.0], [-13.647109]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,149,"self.assertAllClose([[-23.396709], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,150,"self.assertAllClose([[3.0], [-20.39661]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testVariableHyperParams,assertAllClose,158,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testVariableHyperParams,assertAllClose,163,"self.assertAllClose([[0.660831, 1.660831], [2.660831, 3.660831]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testHyperParamDTypeConversion,assertAllClose,183,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testDense,assertAllClose,34,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testSparse,assertAllClose,52,"self.assertAllClose([[1.0 - 3.0 * 0.1], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testSparse,assertAllClose,53,"self.assertAllClose([[3.0], [4.0 - 3.0 * 0.01]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testVariableLearningRate,assertAllClose,61,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testVariableLearningRate,assertAllClose,66,"self.assertAllClose([[-24., -23.], [-12., -11.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testLearningRateDTypeConversion,assertAllClose,76,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+                        [x.numpy() for x in parameters])"
