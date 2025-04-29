@@ -1,6 +1,7 @@
 import os
 import ast
 import csv
+import sys
 
 always_flaky_assertion_types = ['assert_allclose', 'assert_almost_equal', 'assert_approx_equal',
                                 'assert_array_almost_equal', 'assert_array_less', 'assertAllClose']
@@ -106,68 +107,39 @@ def resolve_call(current_path, called_name, functions):
         return called_name
     return None
 
+# This function takes in the current scope path and the
+# the name of the superclass being inherited and determines which
+# class it is with full scope
+def resolve_superclass(current_path, superclass_name, classes):
+    # Check each scope, from nearest upward
+    scopes = current_path.split('.')
+    while scopes:
+        possible = '.'.join(scopes + [superclass_name])
+        if possible in classes:
+            return possible
+        scopes.pop()
+    # Top-level functions fallback
+    # Note that if we were to extend this to work across files,
+    # this would be where we would check imported functions too.
+    if superclass_name in classes:
+        return superclass_name
+    return None
 
-# Extract base class names for inheritance handling
-def extract_base_class_names(class_node):
-    base_names = []
-    for base in class_node.bases:
-        if isinstance(base, ast.Name):
-            base_names.append(base.id)
-    return base_names
-
-
-# Returns inheritance class graph (should be a DAG) adjacency list.
-def build_inheritance_graph(classes):
-    inheritance_graph = {}
-
-    for class_name, class_node in classes.items():
-        base_names = extract_base_class_names(class_node)
-        inheritance_graph[class_name] = base_names
-
-    return inheritance_graph
-
-# Reverses all the edges of the inheritance graph DAG. This is so that
-# we can look up from a subclass to find all its superclasses that it inherits from.
+# Build the reverse inheritance graph. This is a DAG because there is not,
+# to my knowledge, any form of circularity in inheritance in python.
 def reverse_inheritance_graph(classes):
-    # First build the normal inheritance graph
-    inheritance_graph = build_inheritance_graph(classes)
-
-    # Initialize the reverse graph with empty lists for all classes
     reverse_graph = {class_name: [] for class_name in classes.keys()}
 
-    # For each class, add it as a subclass to all its base classes
-    for class_name, base_classes in inheritance_graph.items():
-        for base_class in base_classes:
-            # Make sure the base class exists in the reverse graph
-            if base_class in reverse_graph:
-                reverse_graph[base_class].append(class_name)
-            else:
-                # Handle case where a base class isn't in the original classes dict
-                reverse_graph[base_class] = [class_name]
-
-    return reverse_graph
-
-
-def reverse_inheritance_graph(classes):
-    # Initialize the reverse graph with empty lists for all classes
-    reverse_graph = {class_name: [] for class_name in classes.keys()}
-
-    # Process each class to build the reverse inheritance relationships
     for class_name, class_node in classes.items():
-        # Extract base class names
-        base_names = []
         for base in class_node.bases:
+            # We are not going to consider pathological inheritance classes
+            # For instance, inheriting from nested classes. This just gets silly
+            # and I don't really want to deal with it, especially I think it
+            # is highly unlikely that this is exhibited in any of the project.
             if isinstance(base, ast.Name):
-                base_names.append(base.id)
-
-        # Add this class as a subclass to all its base classes
-        for base_class in base_names:
-            # Make sure the base class exists in the reverse graph
-            if base_class in reverse_graph:
-                reverse_graph[base_class].append(class_name)
-            else:
-                # Handle case where a base class isn't in the original classes dict
-                reverse_graph[base_class] = [class_name]
+                base_name = resolve_superclass(class_name, base.id, classes)
+                if base_name:
+                    reverse_graph[class_name].append(base_name)
 
     return reverse_graph
 
@@ -198,45 +170,64 @@ def extract_assertion_type(assert_string):
             return assertion_type
     return "assert expr"
 
-# Find approximate assertions in a function
-def find_approximate_assertions(func_node, source_code):
+# Given a function node and the source code, find all the
+# possible flaky tests.
+def find_flaky_tests(func_node, source_code):
     assertions = []
-    for stmt in ast.walk(func_node):
-        if isinstance(stmt, ast.Call):
-            if isinstance(stmt.func, ast.Name):
-                name = stmt.func.id
-            elif isinstance(stmt.func, ast.Attribute):
-                name = stmt.func.attr
+
+    def visit(node):
+        # If it's a new function or class, skip walking into it. These will be cataloged
+        # separately and explored for assertions on their own.
+        if isinstance(node, (ast.FunctionDef, ast.AsyncFunctionDef, ast.ClassDef)):
+            return
+
+        if isinstance(node, ast.Call):
+            if isinstance(node.func, ast.Name):
+                name = node.func.id
+            elif isinstance(node.func, ast.Attribute):
+                name = node.func.attr
             else:
-                continue
-            # Handle always-flaky assertions
+                name = None
+
             if name in always_flaky_assertion_types:
-                assertions.append((stmt.lineno, ast.get_source_segment(source_code, stmt)))
-            # Handle sometimes-flaky assertions
-            elif name in check_flaky_assertion_types and is_flaky_compare(stmt):
-                assertions.append((stmt.lineno, ast.get_source_segment(source_code, stmt)))
+                assertions.append((node.lineno, ast.get_source_segment(source_code, node)))
+            elif name in check_flaky_assertion_types and is_flaky_compare(node):
+                assertions.append((node.lineno, ast.get_source_segment(source_code, node)))
+
+        # Recurse into children if it is not a new function or class.
+        for child in ast.iter_child_nodes(node):
+            visit(child)
+
+    # Loop through all elements of the function body and start visiting from them.
+    for stmt in func_node.body:
+        visit(stmt)
+
     return assertions
 
-# Recursively trace approximate assertions through call graph
-def trace_assertions(start_func, functions, call_graph, source_code, memo=None):
-    if memo is None:
-        memo = set()
 
-    results = []
-    if start_func in memo:
-        return results
-    memo.add(start_func)
+# Traces assertions through the call graph recursively. Returns list of assertions.
+def trace_assertions(func_name, functions, call_graph, source_code, visited=None):
+    if visited is None:
+        visited = set()
 
-    if start_func not in functions:
-        return results
+    # Recursive base case, stop if we've already visited this function or
+    # it is not in the list of cataloged functions
+    if func_name in visited or func_name not in functions:
+        return []
 
-    func_node = functions[start_func]
-    results.extend(find_approximate_assertions(func_node, source_code))
+    # Add the function full scope path name to the visited set
+    visited.add(func_name)
 
-    for callee in call_graph.get(start_func, []):
-        resolved = resolve_call(start_func, callee, functions)
+    # Catalog the assertions in the current functions level
+    results = find_flaky_tests(functions[func_name], source_code)
+
+    # Loop through all the functions that this function calls based on the call graph
+    for callee in call_graph.get(func_name, []):
+        # Resolve which function full scope path it is calling
+        resolved = resolve_call(func_name, callee, functions)
         if resolved:
-            results.extend(trace_assertions(resolved, functions, call_graph, source_code, memo))
+            # Recursively extend the results by drilling down into the called functions
+            results.extend(trace_assertions(resolved, functions, call_graph, source_code, visited))
 
     return results
 
@@ -313,8 +304,17 @@ def main(project_dir, project_name):
         for filepath in files:
             process_file(filepath, writer)
 
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python script_name.py <project_name>")
+        sys.exit(1)
+
+    project_name = sys.argv[1]
+    project_dir = f"../projects/{project_name}"  # assume project directory is same as project name
+    main(project_dir, project_name)
+
 # Run the main driver on all of the projects
-main('./projects/magenta', 'magenta')
-main('./projects/botorch', 'botorch')
-main('./projects/sonnet', 'sonnet')
+# main('../projects/magenta', 'magenta')
+# main('../projects/botorch', 'botorch')
+# main('../projects/sonnet', 'sonnet')
 

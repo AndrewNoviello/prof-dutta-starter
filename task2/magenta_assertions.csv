@@ -1,0 +1,115 @@
+filepath,testclass,testname,assertion type,line number,assert string
+../projects/magenta\magenta\contrib\rnn_test.py,RNNCellTest_class,testInputProjectionWrapper,assertAllClose,48,"self.assertAllClose(res[0], [[0.154605, 0.154605, 0.154605]])"
+../projects/magenta\magenta\contrib\rnn_test.py,RNNCellTest_class,_testAttentionCellWrapperCorrectResult,assertAllClose,251,"self.assertAllClose(sess.run(output), expected_output)"
+../projects/magenta\magenta\contrib\rnn_test.py,RNNCellTest_class,_testAttentionCellWrapperCorrectResult,assertAllClose,252,"self.assertAllClose(sess.run(state), expected_state)"
+../projects/magenta\magenta\contrib\rnn_test.py,StackBidirectionalRNNTest_class,_testStackBidirectionalDynamicRNN,assertAllClose,345,"self.assertAllClose(s_fw[0], s_bw[0])"
+../projects/magenta\magenta\contrib\rnn_test.py,StackBidirectionalRNNTest_class,testBidirectionalRNN,assertAllClose,345,"self.assertAllClose(s_fw[0], s_bw[0])"
+../projects/magenta\magenta\contrib\rnn_test.py,LSTMBlockCellTest_class,testLSTMBlockCell,assertAllClose,539,"self.assertAllClose(res[0], [[0.24024698, 0.24024698]])"
+../projects/magenta\magenta\contrib\rnn_test.py,LSTMBlockCellTest_class,testLSTMBlockCell,assertAllClose,541,"self.assertAllClose(res[1], [[0.68967271, 0.68967271]])"
+../projects/magenta\magenta\contrib\rnn_test.py,LSTMBlockCellTest_class,testLSTMBlockCell,assertAllClose,542,"self.assertAllClose(res[2], [[0.44848421, 0.44848421]])"
+../projects/magenta\magenta\contrib\rnn_test.py,LSTMBlockCellTest_class,testLSTMBlockCell,assertAllClose,543,"self.assertAllClose(res[3], [[0.39897051, 0.39897051]])"
+../projects/magenta\magenta\contrib\rnn_test.py,LSTMBlockCellTest_class,testLSTMBlockCell,assertAllClose,544,"self.assertAllClose(res[4], [[0.24024698, 0.24024698]])"
+../projects/magenta\magenta\contrib\rnn_test.py,LSTMBlockCellTest_class,testLSTMBasicToBlockCell,assertAllClose,619,"self.assertAllClose(basic, block)"
+../projects/magenta\magenta\contrib\rnn_test.py,LSTMBlockCellTest_class,testLSTMBasicToBlockCellPeeping,assertAllClose,672,"self.assertAllClose(basic, block)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCell,assertAllClose,716,"self.assertAllClose(actual_h, expected_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCell,assertAllClose,717,"self.assertAllClose(expected_state0_c, actual_state0_c, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCell,assertAllClose,718,"self.assertAllClose(expected_state0_h, actual_state0_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCell,assertAllClose,719,"self.assertAllClose(expected_state1_c, actual_state1_c, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCell,assertAllClose,720,"self.assertAllClose(expected_state1_h, actual_state1_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCell,assertAllClose,742,"self.assertAllClose(res[0], expected_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCell,assertAllClose,743,"self.assertAllClose(res[1].c, expected_c, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCell,assertAllClose,744,"self.assertAllClose(res[1].h, expected_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithoutNorm,assertAllClose,784,"self.assertAllClose(actual_h, expected_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithoutNorm,assertAllClose,785,"self.assertAllClose(expected_state0_c, actual_state0_c, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithoutNorm,assertAllClose,786,"self.assertAllClose(expected_state0_h, actual_state0_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithoutNorm,assertAllClose,787,"self.assertAllClose(expected_state1_c, actual_state1_c, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithoutNorm,assertAllClose,788,"self.assertAllClose(expected_state1_h, actual_state1_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithoutNorm,assertAllClose,810,"self.assertAllClose(res[0], expected_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithoutNorm,assertAllClose,811,"self.assertAllClose(res[1].c, expected_c, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithoutNorm,assertAllClose,812,"self.assertAllClose(res[1].h, expected_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTuple,assertAllClose,845,"self.assertAllClose(res[0], expected_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTuple,assertAllClose,846,"self.assertAllClose(res[1].c, expected_c0, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTuple,assertAllClose,847,"self.assertAllClose(res[1].h, expected_h0, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTuple,assertAllClose,848,"self.assertAllClose(res[2].c, expected_c1, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTuple,assertAllClose,849,"self.assertAllClose(res[2].h, expected_h1, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTupleLayerNorm,assertAllClose,886,"self.assertAllClose(res[0], expected_h, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTupleLayerNorm,assertAllClose,887,"self.assertAllClose(res[1].c, expected_c0, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTupleLayerNorm,assertAllClose,888,"self.assertAllClose(res[1].h, expected_h0, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTupleLayerNorm,assertAllClose,889,"self.assertAllClose(res[2].c, expected_c1, 1e-5)"
+../projects/magenta\magenta\contrib\rnn_test.py,LayerNormBasicLSTMCellTest_class,testBasicLSTMCellWithStateTupleLayerNorm,assertAllClose,890,"self.assertAllClose(res[2].h, expected_h1, 1e-5)"
+../projects/magenta\magenta\contrib\seq2seq_test.py,DynamicDecodeRNNTest_class,_testDynamicDecodeRNNWithTrainingHelperMatchesDynamicRNN,assertAllClose,153,"self.assertAllClose(sess_results[""final_decoder_outputs""].rnn_output,
+                          sess_results[""final_rnn_outputs""][:, 0:max_out, :])"
+../projects/magenta\magenta\contrib\seq2seq_test.py,DynamicDecodeRNNTest_class,_testDynamicDecodeRNNWithTrainingHelperMatchesDynamicRNN,assertAllClose,156,"self.assertAllClose(sess_results[""final_decoder_state""],
+                            sess_results[""final_rnn_state""])"
+../projects/magenta\magenta\contrib\seq2seq_test.py,DynamicDecodeRNNTest_class,testDynamicDecodeRNNWithTrainingHelperMatchesDynamicRNNWithSeqLen,assertAllClose,153,"self.assertAllClose(sess_results[""final_decoder_outputs""].rnn_output,
+                          sess_results[""final_rnn_outputs""][:, 0:max_out, :])"
+../projects/magenta\magenta\contrib\seq2seq_test.py,DynamicDecodeRNNTest_class,testDynamicDecodeRNNWithTrainingHelperMatchesDynamicRNNWithSeqLen,assertAllClose,156,"self.assertAllClose(sess_results[""final_decoder_state""],
+                            sess_results[""final_rnn_state""])"
+../projects/magenta\magenta\contrib\seq2seq_test.py,DynamicDecodeRNNTest_class,testDynamicDecodeRNNWithTrainingHelperMatchesDynamicRNNNoSeqLen,assertAllClose,153,"self.assertAllClose(sess_results[""final_decoder_outputs""].rnn_output,
+                          sess_results[""final_rnn_outputs""][:, 0:max_out, :])"
+../projects/magenta\magenta\contrib\seq2seq_test.py,DynamicDecodeRNNTest_class,testDynamicDecodeRNNWithTrainingHelperMatchesDynamicRNNNoSeqLen,assertAllClose,156,"self.assertAllClose(sess_results[""final_decoder_state""],
+                            sess_results[""final_rnn_state""])"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,_testStepWithScheduledOutputTrainingHelper,assertAllClose,363,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_sampling],
+          expected_next_sampling_inputs)"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,_testStepWithScheduledOutputTrainingHelper,assertAllClose,367,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_not_sampling],
+          np.concatenate(
+              (np.squeeze(inputs[batch_where_not_sampling, 1], axis=0),
+               auxiliary_inputs_to_concat[batch_where_not_sampling]),
+              axis=-1))"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithoutNextInputsFnOrAuxInputs,assertAllClose,363,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_sampling],
+          expected_next_sampling_inputs)"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithoutNextInputsFnOrAuxInputs,assertAllClose,367,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_not_sampling],
+          np.concatenate(
+              (np.squeeze(inputs[batch_where_not_sampling, 1], axis=0),
+               auxiliary_inputs_to_concat[batch_where_not_sampling]),
+              axis=-1))"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithNextInputsFn,assertAllClose,363,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_sampling],
+          expected_next_sampling_inputs)"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithNextInputsFn,assertAllClose,367,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_not_sampling],
+          np.concatenate(
+              (np.squeeze(inputs[batch_where_not_sampling, 1], axis=0),
+               auxiliary_inputs_to_concat[batch_where_not_sampling]),
+              axis=-1))"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithAuxiliaryInputs,assertAllClose,363,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_sampling],
+          expected_next_sampling_inputs)"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithAuxiliaryInputs,assertAllClose,367,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_not_sampling],
+          np.concatenate(
+              (np.squeeze(inputs[batch_where_not_sampling, 1], axis=0),
+               auxiliary_inputs_to_concat[batch_where_not_sampling]),
+              axis=-1))"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithNextInputsFnAndAuxInputs,assertAllClose,363,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_sampling],
+          expected_next_sampling_inputs)"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithNextInputsFnAndAuxInputs,assertAllClose,367,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_not_sampling],
+          np.concatenate(
+              (np.squeeze(inputs[batch_where_not_sampling, 1], axis=0),
+               auxiliary_inputs_to_concat[batch_where_not_sampling]),
+              axis=-1))"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithNoSampling,assertAllClose,363,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_sampling],
+          expected_next_sampling_inputs)"
+../projects/magenta\magenta\contrib\seq2seq_test.py,BasicDecoderTest_class,testStepWithScheduledOutputTrainingHelperWithNoSampling,assertAllClose,367,"self.assertAllClose(
+          sess_results[""step_next_inputs""][batch_where_not_sampling],
+          np.concatenate(
+              (np.squeeze(inputs[batch_where_not_sampling, 1], axis=0),
+               auxiliary_inputs_to_concat[batch_where_not_sampling]),
+              axis=-1))"
+../projects/magenta\magenta\models\gansynth\lib\spectral_ops_test.py,SpectralOpsTest_class,testHertzToMel,assertAllClose,36,"self.assertAllClose(hz, freqs)"
+../projects/magenta\magenta\models\gansynth\lib\spectral_ops_test.py,SpectralOpsTest_class,testDiff,assertAllClose,63,"self.assertAllClose(res_np, res_tf)"
+../projects/magenta\magenta\models\gansynth\lib\spectral_ops_test.py,SpectralOpsTest_class,testUnwrap,assertAllClose,77,"self.assertAllClose(res_np, res_tf)"
+../projects/magenta\magenta\models\gansynth\lib\spectral_ops_test.py,SpectralOpsTest_class,testPolar2Rect,assertAllClose,90,"self.assertAllClose(rect_np, rect_tf)"
+../projects/magenta\magenta\models\gansynth\lib\spectral_ops_test.py,SpectralOpsTest_class,testInstantaneousFrequency,assertAllClose,112,"self.assertAllClose(dphase_np, dphase_tf)"
+../projects/magenta\magenta\models\onsets_frames_transcription\melspec_input_test.py,MelspecInputTest_class,testTfLiteGraphAgainstPlainTf,assert_allclose,119,"np.testing.assert_allclose(
+        tflite_output[0], plain_tf_output[0], rtol=.05, atol=.3)"
+../projects/magenta\magenta\models\onsets_frames_transcription\melspec_input_test.py,MelspecInputTest_class,testTfLiteGraphUnderTfLite,assert_array_almost_equal,164,"np.testing.assert_array_almost_equal(
+        tflite_output[0], tf_output[0], decimal=1)"
+../projects/magenta\magenta\models\onsets_frames_transcription\mfcc_mel_test.py,MfccMelTest_class,testMelSpectrumAgreesWithGoldenValues,assert_array_almost_equal,40,"np.testing.assert_array_almost_equal(expected, mel_spectrum[0, :])"

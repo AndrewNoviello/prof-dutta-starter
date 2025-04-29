@@ -1,10 +1,10 @@
 filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\botorch\utils\testing.py,SyntheticTestFunctionTestCaseMixin_class,test_optimizer,assertAllClose,210,"self.assertAllClose(res, res_exp, atol=1e-3, rtol=1e-3)"
 ./projects/botorch\test\test_fit.py,TestFitFallback_class,test_pick_best_of_all_attempts,assertAllClose,358,"self.assertAllClose(val, best_state_dict[key])"
-./projects/botorch\test\acquisition\test_active_learning.py,TestQNegIntegratedPosteriorVariance_class,test_q_neg_int_post_variance,assertAllClose,102,"self.assertAllClose(val, -0.5 * variance.mean(), atol=1e-4)"
-./projects/botorch\test\acquisition\test_active_learning.py,TestQNegIntegratedPosteriorVariance_class,test_q_neg_int_post_variance,assertAllClose,109,"self.assertAllClose(val, -variance.mean(0), atol=1e-4)"
 ./projects/botorch\test\acquisition\test_active_learning.py,TestQNegIntegratedPosteriorVariance_class,test_q_neg_int_post_variance,assertAllClose,61,"self.assertAllClose(val, -(variance.mean()), atol=1e-4)"
 ./projects/botorch\test\acquisition\test_active_learning.py,TestQNegIntegratedPosteriorVariance_class,test_q_neg_int_post_variance,assertAllClose,79,"self.assertAllClose(val, val_exp, atol=1e-4)"
+./projects/botorch\test\acquisition\test_active_learning.py,TestQNegIntegratedPosteriorVariance_class,test_q_neg_int_post_variance,assertAllClose,102,"self.assertAllClose(val, -0.5 * variance.mean(), atol=1e-4)"
+./projects/botorch\test\acquisition\test_active_learning.py,TestQNegIntegratedPosteriorVariance_class,test_q_neg_int_post_variance,assertAllClose,109,"self.assertAllClose(val, -variance.mean(0), atol=1e-4)"
 ./projects/botorch\test\acquisition\test_active_learning.py,TestQNegIntegratedPosteriorVariance_class,test_q_neg_int_post_variance,assertAllClose,133,"self.assertAllClose(val, val_exp, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestExpectedImprovement_class,test_expected_improvement,assertAllClose,115,"self.assertAllClose(ei, ei_expected, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestExpectedImprovement_class,test_expected_improvement,assertAllClose,116,"self.assertAllClose(log_ei, ei_expected.log(), atol=1e-4)"
@@ -50,18 +50,18 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_log_probability_of_feasibility,assertAllClose,715,"self.assertAllClose(acq_val, log_prob, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement,assertAllClose,769,"self.assertAllClose(ei, ei_expected, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement,assertAllClose,771,"self.assertAllClose(log_ei, ei.log(), atol=1e-5)"
+./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement,assertAllClose,778,"self.assertAllClose(log_ei, ei.log(), atol=1e-5)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement,assertAllClose,828,"self.assertAllClose(ei, ei_expected, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement,assertAllClose,831,"self.assertAllClose(log_ei, ei_expected.log(), atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement,assertAllClose,847,"self.assertAllClose(ei_min, ei_expected_min, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement,assertAllClose,849,"self.assertAllClose(log_ei_min, ei_min.log(), atol=1e-4)"
-./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement,assertAllClose,778,"self.assertAllClose(log_ei, ei.log(), atol=1e-5)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_constrained_expected_improvement,assertAllClose,769,"self.assertAllClose(ei, ei_expected, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_constrained_expected_improvement,assertAllClose,771,"self.assertAllClose(log_ei, ei.log(), atol=1e-5)"
+./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_constrained_expected_improvement,assertAllClose,778,"self.assertAllClose(log_ei, ei.log(), atol=1e-5)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_constrained_expected_improvement,assertAllClose,828,"self.assertAllClose(ei, ei_expected, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_constrained_expected_improvement,assertAllClose,831,"self.assertAllClose(log_ei, ei_expected.log(), atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_constrained_expected_improvement,assertAllClose,847,"self.assertAllClose(ei_min, ei_expected_min, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_constrained_expected_improvement,assertAllClose,849,"self.assertAllClose(log_ei_min, ei_min.log(), atol=1e-4)"
-./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_constrained_expected_improvement,assertAllClose,778,"self.assertAllClose(log_ei, ei.log(), atol=1e-5)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement_batch,assertAllClose,893,"self.assertAllClose(ei, ei_expected, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,test_constrained_expected_improvement_batch,assertAllClose,894,"self.assertAllClose(log_ei, ei.log(), atol=1e-4)"
 ./projects/botorch\test\acquisition\test_analytic.py,TestConstrainedExpectedImprovement_class,_test_constrained_expected_improvement_batch,assertAllClose,893,"self.assertAllClose(ei, ei_expected, atol=1e-4)"
@@ -73,28 +73,22 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\acquisition\test_cost_aware.py,TestCostAwareUtilities_class,test_InverseCostWeightedUtility,assertAllClose,142,"self.assertAllClose(
                     ratios, deltas / multi_output_mean.sum(dim=(-1, -2))
                 )"
-./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,105,"self.assertAllClose(qei, qei_ff)"
-./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,108,"self.assertAllClose(test_X.grad[..., :-1], test_X_ff.grad)"
 ./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,34,"self.assertAllClose(qei, qei_ff)"
-./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,61,"self.assertAllClose(qei, qei_ff)"
-./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,81,"self.assertAllClose(qEI.X_pending, qEI_ff.X_pending)"
-./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,92,"self.assertAllClose(qEI.X_pending, X_pending)"
-./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,125,"self.assertAllClose(test_X_clone.grad[..., [1]], test_X_ff.grad)"
 ./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,45,"self.assertAllClose(qei, qei_ff)"
 ./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,52,"self.assertAllClose(qei, qei_ff)"
+./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,61,"self.assertAllClose(qei, qei_ff)"
 ./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,73,"self.assertAllClose(qei, qei_ff)"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_get_best_f_mc,assertAllClose,216,"self.assertAllClose(best_f, best_f_expected)"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_get_best_f_mc,assertAllClose,224,"self.assertAllClose(best_f, best_f_expected)"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_get_best_f_mc,assertAllClose,230,"self.assertAllClose(best_f, best_f_expected)"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_construct_inputs_qLogNParEGO,assertAllClose,1353,"self.assertAllClose(kwargs[""scalarization_weights""], torch.zeros(2))"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_construct_inputs_mf_base,assertAllClose,1611,"self.assertAllClose(cm.weights, w)"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_construct_inputs_mf_base,assertAllClose,1619,"self.assertAllClose(cm.weights, torch.ones_like(cm.weights))"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_get_best_f_mc,assertAllClose,216,"self.assertAllClose(best_f, best_f_expected)"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_get_best_f_mc,assertAllClose,224,"self.assertAllClose(best_f, best_f_expected)"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_get_best_f_mc,assertAllClose,230,"self.assertAllClose(best_f, best_f_expected)"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_construct_inputs_qLogNParEGO,assertAllClose,1353,"self.assertAllClose(kwargs[""scalarization_weights""], torch.zeros(2))"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_construct_inputs_mf_base,assertAllClose,1611,"self.assertAllClose(cm.weights, w)"
-./projects/botorch\test\acquisition\test_input_constructors.py,InputConstructorBaseTestCase,test_construct_inputs_mf_base,assertAllClose,1619,"self.assertAllClose(cm.weights, torch.ones_like(cm.weights))"
+./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,81,"self.assertAllClose(qEI.X_pending, qEI_ff.X_pending)"
+./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,92,"self.assertAllClose(qEI.X_pending, X_pending)"
+./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,105,"self.assertAllClose(qei, qei_ff)"
+./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,108,"self.assertAllClose(test_X.grad[..., :-1], test_X_ff.grad)"
+./projects/botorch\test\acquisition\test_fixed_feature.py,TestFixedFeatureAcquisitionFunction_class,test_fixed_features,assertAllClose,125,"self.assertAllClose(test_X_clone.grad[..., [1]], test_X_ff.grad)"
+./projects/botorch\test\acquisition\test_input_constructors.py,TestInputConstructorUtils_class,test_get_best_f_mc,assertAllClose,216,"self.assertAllClose(best_f, best_f_expected)"
+./projects/botorch\test\acquisition\test_input_constructors.py,TestInputConstructorUtils_class,test_get_best_f_mc,assertAllClose,224,"self.assertAllClose(best_f, best_f_expected)"
+./projects/botorch\test\acquisition\test_input_constructors.py,TestInputConstructorUtils_class,test_get_best_f_mc,assertAllClose,230,"self.assertAllClose(best_f, best_f_expected)"
+./projects/botorch\test\acquisition\test_input_constructors.py,TestMultiObjectiveAcquisitionFunctionInputConstructors_class,test_construct_inputs_qLogNParEGO,assertAllClose,1353,"self.assertAllClose(kwargs[""scalarization_weights""], torch.zeros(2))"
+./projects/botorch\test\acquisition\test_input_constructors.py,TestKGandESAcquisitionFunctionInputConstructors_class,test_construct_inputs_mf_base,assertAllClose,1611,"self.assertAllClose(cm.weights, w)"
+./projects/botorch\test\acquisition\test_input_constructors.py,TestKGandESAcquisitionFunctionInputConstructors_class,test_construct_inputs_mf_base,assertAllClose,1619,"self.assertAllClose(cm.weights, torch.ones_like(cm.weights))"
 ./projects/botorch\test\acquisition\test_knowledge_gradient.py,TestQKnowledgeGradient_class,test_evaluate_q_knowledge_gradient,assertAllClose,158,"self.assertAllClose(val, mean.mean(), atol=1e-4)"
 ./projects/botorch\test\acquisition\test_knowledge_gradient.py,TestQKnowledgeGradient_class,test_evaluate_q_knowledge_gradient,assertAllClose,202,"self.assertAllClose(val, expected, atol=1e-4)"
 ./projects/botorch\test\acquisition\test_knowledge_gradient.py,TestQKnowledgeGradient_class,test_evaluate_q_knowledge_gradient,assertAllClose,220,"self.assertAllClose(val, objective(samples).mean(), atol=1e-4)"
@@ -134,14 +128,14 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\acquisition\test_monte_carlo.py,TestQPosteriorStandardDeviation_class,test_q_pstd,assertAllClose,1038,"self.assertAllClose(res.item(), std, rtol=0.02, atol=0)"
 ./projects/botorch\test\acquisition\test_monte_carlo.py,TestQPosteriorStandardDeviation_class,test_q_pstd,assertAllClose,1044,"self.assertAllClose(res.item(), std, rtol=0.02, atol=0)"
 ./projects/botorch\test\acquisition\test_monte_carlo.py,TestQPosteriorStandardDeviation_class,test_q_pstd,assertAllClose,1056,"self.assertAllClose(res.item(), std, rtol=0.02, atol=0)"
+./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,test_mc_acquisition_function_with_constraints,assertAllClose,1171,"self.assertAllClose(vals, expected_vals)"
 ./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,test_mc_acquisition_function_with_constraints,assertAllClose,1222,"self.assertAllClose(old_val, torch.ones_like(old_val))"
 ./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,test_mc_acquisition_function_with_constraints,assertAllClose,1224,"self.assertAllClose(new_val, torch.zeros_like(new_val))"
 ./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,test_mc_acquisition_function_with_constraints,assertAllClose,1243,"self.assertAllClose(new_val, old_val)"
-./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,test_mc_acquisition_function_with_constraints,assertAllClose,1171,"self.assertAllClose(vals, expected_vals)"
+./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,_test_mc_acquisition_function_with_constraints,assertAllClose,1171,"self.assertAllClose(vals, expected_vals)"
 ./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,_test_mc_acquisition_function_with_constraints,assertAllClose,1222,"self.assertAllClose(old_val, torch.ones_like(old_val))"
 ./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,_test_mc_acquisition_function_with_constraints,assertAllClose,1224,"self.assertAllClose(new_val, torch.zeros_like(new_val))"
 ./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,_test_mc_acquisition_function_with_constraints,assertAllClose,1243,"self.assertAllClose(new_val, old_val)"
-./projects/botorch\test\acquisition\test_monte_carlo.py,TestMCAcquisitionFunctionWithConstraints_class,_test_mc_acquisition_function_with_constraints,assertAllClose,1171,"self.assertAllClose(vals, expected_vals)"
 ./projects/botorch\test\acquisition\test_objective.py,TestScalarizedPosteriorTransform_class,test_scalarized_posterior_transform,assertAllClose,81,"self.assertAllClose(new_posterior.mean[..., -1], new_mean_exp)"
 ./projects/botorch\test\acquisition\test_objective.py,TestExpectationPosteriorTransform_class,test_init,assertAllClose,102,"self.assertAllClose(tf.weights, torch.ones(5, 1) * 0.2)"
 ./projects/botorch\test\acquisition\test_objective.py,TestExpectationPosteriorTransform_class,test_init,assertAllClose,111,"self.assertAllClose(tf.weights, weights / torch.tensor([6.0, 12.0]))"
@@ -181,9 +175,9 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\acquisition\test_thompson_sampling.py,TestPathwiseThompsonSampling_class,test_thompson_sampling_single_task,assertAllClose,61,"self.assertAllClose(acq_pass1, acq(test_X))"
 ./projects/botorch\test\acquisition\test_utils.py,TestConstraintUtils_class,test_compute_best_feasible_objective,assertAllClose,80,"self.assertAllClose(best_f, obj.amax(dim=-1, keepdim=False))"
 ./projects/botorch\test\acquisition\test_utils.py,TestConstraintUtils_class,test_compute_best_feasible_objective,assertAllClose,123,"self.assertAllClose(best_f, expected_best_f)"
+./projects/botorch\test\acquisition\test_utils.py,TestConstraintUtils_class,test_compute_best_feasible_objective,assertAllClose,135,"self.assertAllClose(best_f, expected_best_f)"
 ./projects/botorch\test\acquisition\test_utils.py,TestConstraintUtils_class,test_compute_best_feasible_objective,assertAllClose,151,"self.assertAllClose(best_f, expected_best_f)"
 ./projects/botorch\test\acquisition\test_utils.py,TestConstraintUtils_class,test_compute_best_feasible_objective,assertAllClose,170,"self.assertAllClose(best_f, expected_best_f)"
-./projects/botorch\test\acquisition\test_utils.py,TestConstraintUtils_class,test_compute_best_feasible_objective,assertAllClose,135,"self.assertAllClose(best_f, expected_best_f)"
 ./projects/botorch\test\acquisition\test_utils.py,TestConstraintUtils_class,test_get_infeasible_cost,assertAllClose,203,"self.assertAllClose(M, torch.tensor([6.0], **tkwargs))"
 ./projects/botorch\test\acquisition\test_utils.py,TestConstraintUtils_class,test_get_infeasible_cost,assertAllClose,207,"self.assertAllClose(M, torch.tensor([7.0], **tkwargs))"
 ./projects/botorch\test\acquisition\test_utils.py,TestConstraintUtils_class,test_get_infeasible_cost,assertAllClose,211,"self.assertAllClose(M2, torch.tensor([1.0], **tkwargs))"
@@ -258,20 +252,20 @@ filepath,testclass,testname,assertion type,line number,assert string
             rtol=tol,
         )"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_noisy_expected_hypervolume_improvement,assertAllClose,1024,"self.assertAllClose(val, expected_val.view(-1))"
-./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_noisy_expected_hypervolume_improvement,assertAllClose,1108,"self.assertAllClose(val, expected_val.view(-1))"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_noisy_expected_hypervolume_improvement,assertAllClose,1057,"self.assertAllClose(expected_val, acqf._prev_nehvi)"
+./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_noisy_expected_hypervolume_improvement,assertAllClose,1108,"self.assertAllClose(val, expected_val.view(-1))"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_noisy_expected_hypervolume_improvement,assertAllClose,1237,"self.assertAllClose(expected_val.view(1), val)"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_log_noisy_expected_hypervolume_improvement,assertAllClose,1024,"self.assertAllClose(val, expected_val.view(-1))"
-./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_log_noisy_expected_hypervolume_improvement,assertAllClose,1108,"self.assertAllClose(val, expected_val.view(-1))"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_log_noisy_expected_hypervolume_improvement,assertAllClose,1057,"self.assertAllClose(expected_val, acqf._prev_nehvi)"
+./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_log_noisy_expected_hypervolume_improvement,assertAllClose,1108,"self.assertAllClose(val, expected_val.view(-1))"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_q_log_noisy_expected_hypervolume_improvement,assertAllClose,1237,"self.assertAllClose(expected_val.view(1), val)"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_q_noisy_expected_hypervolume_improvement,assertAllClose,1024,"self.assertAllClose(val, expected_val.view(-1))"
-./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_q_noisy_expected_hypervolume_improvement,assertAllClose,1108,"self.assertAllClose(val, expected_val.view(-1))"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_q_noisy_expected_hypervolume_improvement,assertAllClose,1057,"self.assertAllClose(expected_val, acqf._prev_nehvi)"
+./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_q_noisy_expected_hypervolume_improvement,assertAllClose,1108,"self.assertAllClose(val, expected_val.view(-1))"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_q_noisy_expected_hypervolume_improvement,assertAllClose,1237,"self.assertAllClose(expected_val.view(1), val)"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_qnehvi_with_CBD,assertAllClose,1024,"self.assertAllClose(val, expected_val.view(-1))"
-./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_qnehvi_with_CBD,assertAllClose,1108,"self.assertAllClose(val, expected_val.view(-1))"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_qnehvi_with_CBD,assertAllClose,1057,"self.assertAllClose(expected_val, acqf._prev_nehvi)"
+./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_qnehvi_with_CBD,assertAllClose,1108,"self.assertAllClose(val, expected_val.view(-1))"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_qnehvi_without_CBD,assertAllClose,1237,"self.assertAllClose(expected_val.view(1), val)"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,test_cache_root,assertAllClose,1693,"self.assertAllClose(val, val2, **all_close_kwargs)"
 ./projects/botorch\test\acquisition\multi_objective\test_monte_carlo.py,TestQNoisyExpectedHypervolumeImprovement_class,_test_cache_root,assertAllClose,1693,"self.assertAllClose(val, val2, **all_close_kwargs)"
@@ -305,17 +299,13 @@ filepath,testclass,testname,assertion type,line number,assert string
             acqf_val, qLogNoisyExpectedImprovement.forward(acqf, X=test_X)
         )"
 ./projects/botorch\test\generation\test_sampling.py,TestConstrainedMaxPosteriorSampling_class,test_constrained_max_posterior_sampling,assertAllClose,237,"self.assertAllClose(X_true, X_cand)"
+./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,28,"self.assertAllClose(y, y_exp)"
+./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,31,"self.assertAllClose(y, y_exp)"
+./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,34,"self.assertAllClose(y, y_exp)"
 ./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,40,"self.assertAllClose(y, y_exp)"
 ./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,43,"self.assertAllClose(y, y_exp)"
 ./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,46,"self.assertAllClose(y, y_exp)"
 ./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,48,"self.assertAllClose(y, y_exp)"
-./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,28,"self.assertAllClose(y, y_exp)"
-./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,31,"self.assertAllClose(y, y_exp)"
-./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_flip_sub_unique,assertAllClose,34,"self.assertAllClose(y, y_exp)"
-./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_remove_fixed_features_from_optimization,assertAllClose,96,"self.assertAllClose(
-                    old_nlcs[0][0](complete_data),
-                    new_nlcs[0][0](reduced_data),
-                )"
 ./projects/botorch\test\generation\test_utils.py,TestGenerationUtils_class,test_remove_fixed_features_from_optimization,assertAllClose,96,"self.assertAllClose(
                     old_nlcs[0][0](complete_data),
                     new_nlcs[0][0](reduced_data),
@@ -326,9 +316,9 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\test_approximate_gp.py,TestSingleTaskVariationalGP_class,test_custom_inducing_point_init,assertAllClose,342,"self.assertAllClose(model_1_inducing, model_2_inducing)"
 ./projects/botorch\test\models\test_approximate_gp.py,TestSingleTaskVariationalGP_class,test_input_transform,assertAllClose,363,"self.assertAllClose(post.mean[0][0], y.mean(), atol=1e-3, rtol=1e-3)"
 ./projects/botorch\test\models\test_contextual_multioutput.py,ContextualMultiOutputTest_class,test_LCEMGP,assertAllClose,103,"self.assertAllClose(previous_covar, model.task_covar_module(task_idcs))"
-./projects/botorch\test\models\test_contextual_multioutput.py,ContextualMultiOutputTest_class,test_construct_inputs,assertAllClose,137,"self.assertAllClose(model_inputs.pop(""train_Y""), train_y)"
 ./projects/botorch\test\models\test_contextual_multioutput.py,ContextualMultiOutputTest_class,test_construct_inputs,assertAllClose,132,"self.assertAllClose(model_inputs.pop(""train_X""), train_x[..., [1, 0]])"
 ./projects/botorch\test\models\test_contextual_multioutput.py,ContextualMultiOutputTest_class,test_construct_inputs,assertAllClose,136,"self.assertAllClose(model_inputs.pop(""train_X""), train_x)"
+./projects/botorch\test\models\test_contextual_multioutput.py,ContextualMultiOutputTest_class,test_construct_inputs,assertAllClose,137,"self.assertAllClose(model_inputs.pop(""train_Y""), train_y)"
 ./projects/botorch\test\models\test_contextual_multioutput.py,ContextualMultiOutputTest_class,test_construct_inputs,assertAllClose,139,"self.assertAllClose(model_inputs.pop(""train_Yvar""), train_yvar)"
 ./projects/botorch\test\models\test_contextual_multioutput.py,ContextualMultiOutputTest_class,test_construct_inputs,assertAllClose,142,"self.assertAllClose(
                     model_inputs.pop(""context_emb_feature""),
@@ -345,85 +335,152 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\test_deterministic.py,TestDeterministicModels_class,test_AffineDeterministicModel,assertAllClose,108,"self.assertAllClose(p.mean, mean_exp)"
 ./projects/botorch\test\models\test_deterministic.py,TestDeterministicModels_class,test_with_transforms,assertAllClose,133,"self.assertAllClose(expected_Y, posterior.mean)"
 ./projects/botorch\test\models\test_deterministic.py,TestDeterministicModels_class,test_FixedSingleSampleModel,assertAllClose,177,"self.assertAllClose(original_output, fss_output)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,254,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,255,"self.assertAllClose(train_Y, model.pyro_model.train_Y)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,442,"self.assertAllClose(model.pyro_model.train_X, train_X)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,446,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,453,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,460,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,259,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,254,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,255,"self.assertAllClose(train_Y, model.pyro_model.train_Y)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,259,"self.assertAllClose(
                     train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL),
                     model.pyro_model.train_Yvar,
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,311,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,311,"self.assertAllClose(
                     train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL).squeeze(-1).repeat(3, 1),
                     model.likelihood.noise,
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,350,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,350,"self.assertAllClose(
                     quantile12, torch.stack([quantile1, quantile2], dim=0)
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,356,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,356,"self.assertAllClose(
                     dist.cdf(quantile1.unsqueeze(MCMC_DIM)).mean(dim=MCMC_DIM),
                     torch.full(batch_shape + [1], 0.01, **tkwargs),
                     atol=1e-6,
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_fit_model,assertAllClose,361,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,361,"self.assertAllClose(
                     dist.cdf(quantile2.unsqueeze(MCMC_DIM)).mean(dim=MCMC_DIM),
                     torch.full(batch_shape + [1], 0.99, **tkwargs),
                     atol=1e-6,
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_transforms,assertAllClose,521,"self.assertAllClose(pred_mean1, pred_mean2)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_transforms,assertAllClose,522,"self.assertAllClose(pred_var1, pred_var2)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_load_samples,assertAllClose,691,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,442,"self.assertAllClose(model.pyro_model.train_X, train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,446,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,453,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,460,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_transforms,assertAllClose,521,"self.assertAllClose(pred_mean1, pred_mean2)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_transforms,assertAllClose,522,"self.assertAllClose(pred_var1, pred_var2)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,691,"self.assertAllClose(
                 model.mean_module.raw_constant.data, mcmc_samples[""mean""]
             )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_load_samples,assertAllClose,695,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,695,"self.assertAllClose(
                     model.likelihood.noise_covar.noise, mcmc_samples[""noise""]
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_load_samples,assertAllClose,699,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,699,"self.assertAllClose(
                     model.likelihood.noise_covar.noise,
                     train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL).squeeze(-1).repeat(3, 1),
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_load_samples,assertAllClose,705,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,705,"self.assertAllClose(
                     model.covar_module.base_kernel.lengthscale,
                     mcmc_samples[""lengthscale""],
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_load_samples,assertAllClose,709,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,709,"self.assertAllClose(
                     model.covar_module.outputscale, mcmc_samples[""outputscale""]
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_load_samples,assertAllClose,713,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,713,"self.assertAllClose(
                     model.covar_module.variance, mcmc_samples[""weight_variance""]
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_load_samples,assertAllClose,718,"self.assertAllClose(warp.concentration0, mcmc_samples[""c0""])"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_load_samples,assertAllClose,719,"self.assertAllClose(warp.concentration1, mcmc_samples[""c1""])"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_custom_pyro_model,assertAllClose,761,"self.assertAllClose(model.pyro_model.train_X, train_X)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_custom_pyro_model,assertAllClose,762,"self.assertAllClose(model.pyro_model.train_Y, train_Y)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_custom_pyro_model,assertAllClose,782,"self.assertAllClose(model.pyro_model.train_X, (train_X - lb) / (ub - lb))"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_custom_pyro_model,assertAllClose,784,"self.assertAllClose(model.pyro_model.train_Y, (train_Y - mu) / sigma)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_custom_pyro_model,assertAllClose,766,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,718,"self.assertAllClose(warp.concentration0, mcmc_samples[""c0""])"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,719,"self.assertAllClose(warp.concentration1, mcmc_samples[""c1""])"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,761,"self.assertAllClose(model.pyro_model.train_X, train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,762,"self.assertAllClose(model.pyro_model.train_Y, train_Y)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,766,"self.assertAllClose(
                     model.pyro_model.train_Yvar,
                     train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL),
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_custom_pyro_model,assertAllClose,786,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,782,"self.assertAllClose(model.pyro_model.train_X, (train_X - lb) / (ub - lb))"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,784,"self.assertAllClose(model.pyro_model.train_Y, (train_Y - mu) / sigma)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,786,"self.assertAllClose(
                     model.pyro_model.train_Yvar,
                     train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL) / (sigma**2),
                     atol=5e-4,
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_bisect,assertAllClose,928,"self.assertAllClose(x, torch.full(batch_shape, 0.75, **tkwargs), atol=tol)"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_bisect,assertAllClose,923,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_bisect,assertAllClose,923,"self.assertAllClose(
                     f(x), torch.full(batch_shape, target, **tkwargs), atol=tol
                 )"
-./projects/botorch\test\models\test_fully_bayesian.py,TestSaasFullyBayesianSingleTaskGP_class,test_bisect,assertAllClose,946,"self.assertAllClose(
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_bisect,assertAllClose,928,"self.assertAllClose(x, torch.full(batch_shape, 0.75, **tkwargs), atol=tol)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_bisect,assertAllClose,946,"self.assertAllClose(
                     dist.cdf(x), q * torch.ones(1, 5, 1, **tkwargs), atol=1e-4
                 )"
 ./projects/botorch\test\models\test_fully_bayesian.py,TestPyroCatchNumericalErrors_class,test_pyro_catch_error,assertAllClose,981,"self.assertAllClose(grads[""K""], -0.5 * torch.eye(2))"
 ./projects/botorch\test\models\test_fully_bayesian.py,TestPyroCatchNumericalErrors_class,test_pyro_catch_error,assertAllClose,983,"self.assertAllClose(val, 2 * norm_mvn.log_prob(torch.tensor(0.0)))"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,254,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,255,"self.assertAllClose(train_Y, model.pyro_model.train_Y)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,259,"self.assertAllClose(
+                    train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL),
+                    model.pyro_model.train_Yvar,
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,311,"self.assertAllClose(
+                    train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL).squeeze(-1).repeat(3, 1),
+                    model.likelihood.noise,
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,350,"self.assertAllClose(
+                    quantile12, torch.stack([quantile1, quantile2], dim=0)
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,356,"self.assertAllClose(
+                    dist.cdf(quantile1.unsqueeze(MCMC_DIM)).mean(dim=MCMC_DIM),
+                    torch.full(batch_shape + [1], 0.01, **tkwargs),
+                    atol=1e-6,
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,361,"self.assertAllClose(
+                    dist.cdf(quantile2.unsqueeze(MCMC_DIM)).mean(dim=MCMC_DIM),
+                    torch.full(batch_shape + [1], 0.99, **tkwargs),
+                    atol=1e-6,
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,442,"self.assertAllClose(model.pyro_model.train_X, train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,446,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,453,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_fit_model,assertAllClose,460,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_transforms,assertAllClose,521,"self.assertAllClose(pred_mean1, pred_mean2)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_transforms,assertAllClose,522,"self.assertAllClose(pred_var1, pred_var2)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,691,"self.assertAllClose(
+                model.mean_module.raw_constant.data, mcmc_samples[""mean""]
+            )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,695,"self.assertAllClose(
+                    model.likelihood.noise_covar.noise, mcmc_samples[""noise""]
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,699,"self.assertAllClose(
+                    model.likelihood.noise_covar.noise,
+                    train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL).squeeze(-1).repeat(3, 1),
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,705,"self.assertAllClose(
+                    model.covar_module.base_kernel.lengthscale,
+                    mcmc_samples[""lengthscale""],
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,709,"self.assertAllClose(
+                    model.covar_module.outputscale, mcmc_samples[""outputscale""]
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,713,"self.assertAllClose(
+                    model.covar_module.variance, mcmc_samples[""weight_variance""]
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,718,"self.assertAllClose(warp.concentration0, mcmc_samples[""c0""])"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_load_samples,assertAllClose,719,"self.assertAllClose(warp.concentration1, mcmc_samples[""c1""])"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,761,"self.assertAllClose(model.pyro_model.train_X, train_X)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,762,"self.assertAllClose(model.pyro_model.train_Y, train_Y)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,766,"self.assertAllClose(
+                    model.pyro_model.train_Yvar,
+                    train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL),
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,782,"self.assertAllClose(model.pyro_model.train_X, (train_X - lb) / (ub - lb))"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,784,"self.assertAllClose(model.pyro_model.train_Y, (train_Y - mu) / sigma)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_custom_pyro_model,assertAllClose,786,"self.assertAllClose(
+                    model.pyro_model.train_Yvar,
+                    train_Yvar.clamp(MIN_INFERRED_NOISE_LEVEL) / (sigma**2),
+                    atol=5e-4,
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_bisect,assertAllClose,923,"self.assertAllClose(
+                    f(x), torch.full(batch_shape, target, **tkwargs), atol=tol
+                )"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_bisect,assertAllClose,928,"self.assertAllClose(x, torch.full(batch_shape, 0.75, **tkwargs), atol=tol)"
+./projects/botorch\test\models\test_fully_bayesian.py,TestFullyBayesianLinearSingleTaskGP,test_bisect,assertAllClose,946,"self.assertAllClose(
+                    dist.cdf(x), q * torch.ones(1, 5, 1, **tkwargs), atol=1e-4
+                )"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,240,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,241,"self.assertAllClose(train_Y_tf, model.pyro_model.train_Y)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,429,"self.assertAllClose(model.pyro_model.train_X, train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,434,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,441,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,448,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,245,"self.assertAllClose(
                 train_Yvar_tf.clamp(MIN_INFERRED_NOISE_LEVEL),
                 model.pyro_model.train_Yvar,
@@ -432,12 +489,12 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,310,"self.assertAllClose(
                     added_noise, expected_noise.expand_as(added_noise), atol=1e-4
                 )"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,429,"self.assertAllClose(model.pyro_model.train_X, train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,434,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,441,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model,assertAllClose,448,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,240,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,241,"self.assertAllClose(train_Y_tf, model.pyro_model.train_Y)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,429,"self.assertAllClose(model.pyro_model.train_X, train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,434,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,441,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,448,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,245,"self.assertAllClose(
                 train_Yvar_tf.clamp(MIN_INFERRED_NOISE_LEVEL),
                 model.pyro_model.train_Yvar,
@@ -446,12 +503,12 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,310,"self.assertAllClose(
                     added_noise, expected_noise.expand_as(added_noise), atol=1e-4
                 )"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,429,"self.assertAllClose(model.pyro_model.train_X, train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,434,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,441,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_float,assertAllClose,448,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,240,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,241,"self.assertAllClose(train_Y_tf, model.pyro_model.train_Y)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,429,"self.assertAllClose(model.pyro_model.train_X, train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,434,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,441,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,448,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,245,"self.assertAllClose(
                 train_Yvar_tf.clamp(MIN_INFERRED_NOISE_LEVEL),
                 model.pyro_model.train_Yvar,
@@ -460,12 +517,12 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,310,"self.assertAllClose(
                     added_noise, expected_noise.expand_as(added_noise), atol=1e-4
                 )"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,429,"self.assertAllClose(model.pyro_model.train_X, train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,434,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,441,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_infer_noise,assertAllClose,448,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,240,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,241,"self.assertAllClose(train_Y_tf, model.pyro_model.train_Y)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,429,"self.assertAllClose(model.pyro_model.train_X, train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,434,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,441,"self.assertAllClose(train_X, model.pyro_model.train_X)"
-./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,448,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,245,"self.assertAllClose(
                 train_Yvar_tf.clamp(MIN_INFERRED_NOISE_LEVEL),
                 model.pyro_model.train_Yvar,
@@ -474,6 +531,10 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,310,"self.assertAllClose(
                     added_noise, expected_noise.expand_as(added_noise), atol=1e-4
                 )"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,429,"self.assertAllClose(model.pyro_model.train_X, train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,434,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,441,"self.assertAllClose(train_X, model.pyro_model.train_X)"
+./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_fit_model_with_outcome_transform,assertAllClose,448,"self.assertAllClose(train_X, model.pyro_model.train_X)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_transforms,assertAllClose,517,"self.assertAllClose(pred_mean1, pred_mean2)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_transforms,assertAllClose,518,"self.assertAllClose(pred_var1, pred_var2)"
 ./projects/botorch\test\models\test_fully_bayesian_multitask.py,TestFullyBayesianMultiTaskGP_class,test_transforms_infer_noise,assertAllClose,517,"self.assertAllClose(pred_mean1, pred_mean2)"
@@ -495,12 +556,18 @@ filepath,testclass,testname,assertion type,line number,assert string
                     atol=2e-6 if dtype is torch.float else 1e-6,
                     rtol=3e-4 if dtype is torch.float else 1e-5,
                 )"
-./projects/botorch\test\models\test_gp_regression.py,TestGPRegressionBase_class,test_gp,assertAllClose,132,"self.assertAllClose(pvar, pvar_exp, rtol=1e-4, atol=1e-5)"
-./projects/botorch\test\models\test_gp_regression.py,TestGPRegressionBase_class,test_gp,assertAllClose,142,"self.assertAllClose(posterior_pred.variance, posterior.variance + obs_noise)"
-./projects/botorch\test\models\test_gp_regression.py,TestGPRegressionBase_class,test_gp,assertAllClose,157,"self.assertAllClose(pvar, pvar_exp, rtol=1e-4, atol=1e-5)"
-./projects/botorch\test\models\test_gp_regression.py,TestGPRegressionBase_class,test_subset_model,assertAllClose,397,"self.assertAllClose(p_sub_all.mean, p.mean)"
-./projects/botorch\test\models\test_gp_regression_fidelity.py,TestSingleTaskMultiFidelityGP_class,test_gp,assertAllClose,188,"self.assertAllClose(posterior.variance, expected_var)"
-./projects/botorch\test\models\test_gp_regression_fidelity.py,TestSingleTaskMultiFidelityGP_class,test_gp,assertAllClose,204,"self.assertAllClose(posterior.variance, expected_var)"
+./projects/botorch\test\models\test_gp_regression.py,TestSingleTaskGP,test_gp,assertAllClose,132,"self.assertAllClose(pvar, pvar_exp, rtol=1e-4, atol=1e-5)"
+./projects/botorch\test\models\test_gp_regression.py,TestSingleTaskGP,test_gp,assertAllClose,142,"self.assertAllClose(posterior_pred.variance, posterior.variance + obs_noise)"
+./projects/botorch\test\models\test_gp_regression.py,TestSingleTaskGP,test_gp,assertAllClose,157,"self.assertAllClose(pvar, pvar_exp, rtol=1e-4, atol=1e-5)"
+./projects/botorch\test\models\test_gp_regression.py,TestSingleTaskGP,test_subset_model,assertAllClose,397,"self.assertAllClose(p_sub_all.mean, p.mean)"
+./projects/botorch\test\models\test_gp_regression.py,TestSingleTaskGP,test_gp,assertAllClose,132,"self.assertAllClose(pvar, pvar_exp, rtol=1e-4, atol=1e-5)"
+./projects/botorch\test\models\test_gp_regression.py,TestSingleTaskGP,test_gp,assertAllClose,142,"self.assertAllClose(posterior_pred.variance, posterior.variance + obs_noise)"
+./projects/botorch\test\models\test_gp_regression.py,TestSingleTaskGP,test_gp,assertAllClose,157,"self.assertAllClose(pvar, pvar_exp, rtol=1e-4, atol=1e-5)"
+./projects/botorch\test\models\test_gp_regression.py,TestSingleTaskGP,test_subset_model,assertAllClose,397,"self.assertAllClose(p_sub_all.mean, p.mean)"
+./projects/botorch\test\models\test_gp_regression_fidelity.py,TestFixedNoiseSingleTaskMultiFidelityGP,test_gp,assertAllClose,188,"self.assertAllClose(posterior.variance, expected_var)"
+./projects/botorch\test\models\test_gp_regression_fidelity.py,TestFixedNoiseSingleTaskMultiFidelityGP,test_gp,assertAllClose,204,"self.assertAllClose(posterior.variance, expected_var)"
+./projects/botorch\test\models\test_gp_regression_fidelity.py,TestFixedNoiseSingleTaskMultiFidelityGP,test_gp,assertAllClose,188,"self.assertAllClose(posterior.variance, expected_var)"
+./projects/botorch\test\models\test_gp_regression_fidelity.py,TestFixedNoiseSingleTaskMultiFidelityGP,test_gp,assertAllClose,204,"self.assertAllClose(posterior.variance, expected_var)"
 ./projects/botorch\test\models\test_gp_regression_mixed.py,TestMixedSingleTaskGP_class,test_gp,assertAllClose,126,"self.assertAllClose(pvar, pvar_exp, rtol=1e-4, atol=1e-5)"
 ./projects/botorch\test\models\test_gp_regression_mixed.py,TestMixedSingleTaskGP_class,test_gp,assertAllClose,140,"self.assertAllClose(pvar, pvar_exp, rtol=1e-4, atol=1e-5)"
 ./projects/botorch\test\models\test_latent_kronecker_gp.py,TestLatentKroneckerGP_class,test_default_init,assertAllClose,101,"self.assertAllClose(model.train_inputs[0], train_X, atol=0.0)"
@@ -519,6 +586,12 @@ filepath,testclass,testname,assertion type,line number,assert string
             )"
 ./projects/botorch\test\models\test_map_saas.py,TestMapSaas_class,test_get_saas_model,assertAllClose,208,"self.assertAllClose(pred_mean, pred_mean2)"
 ./projects/botorch\test\models\test_map_saas.py,TestMapSaas_class,test_get_saas_model,assertAllClose,209,"self.assertAllClose(pred_var, pred_var2)"
+./projects/botorch\test\models\test_map_saas.py,TestMapSaas_class,test_get_saas_model,assertAllClose,246,"self.assertAllClose(
+                    bounds[""likelihood.noise_covar.raw_noise""][0].item(), math.log(1e-4)
+                )"
+./projects/botorch\test\models\test_map_saas.py,TestMapSaas_class,test_get_saas_model,assertAllClose,249,"self.assertAllClose(
+                    bounds[""likelihood.noise_covar.raw_noise""][1].item(), math.log(1)
+                )"
 ./projects/botorch\test\models\test_map_saas.py,TestMapSaas_class,test_get_saas_model,assertAllClose,252,"self.assertAllClose(
                 bounds[""model.mean_module.raw_constant""][0].item(), -10.0
             )"
@@ -539,12 +612,6 @@ filepath,testclass,testname,assertion type,line number,assert string
                 bounds[""model.covar_module.base_kernel.raw_lengthscale""][1].item(),
                 math.log(1e4),
             )"
-./projects/botorch\test\models\test_map_saas.py,TestMapSaas_class,test_get_saas_model,assertAllClose,246,"self.assertAllClose(
-                    bounds[""likelihood.noise_covar.raw_noise""][0].item(), math.log(1e-4)
-                )"
-./projects/botorch\test\models\test_map_saas.py,TestMapSaas_class,test_get_saas_model,assertAllClose,249,"self.assertAllClose(
-                    bounds[""likelihood.noise_covar.raw_noise""][1].item(), math.log(1)
-                )"
 ./projects/botorch\test\models\test_map_saas.py,TestMapSaas_class,test_get_saas_model,assertAllClose,273,"self.assertAllClose(
                     bounds[""model.covar_module.base_kernel.raw_tau""][0].item(),
                     math.log(1e-3),
@@ -649,12 +716,24 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\test_multitask.py,TestMultiTaskGP_class,test_MultiTaskGP_construct_inputs,assertAllClose,483,"self.assertAllClose(data_dict[""train_X""], train_X)"
 ./projects/botorch\test\models\test_multitask.py,TestMultiTaskGP_class,test_MultiTaskGP_construct_inputs,assertAllClose,488,"self.assertAllClose(data_dict[""train_Yvar""], train_Yvar)"
 ./projects/botorch\test\models\test_multitask.py,TestKroneckerMultiTaskGP_class,test_KroneckerMultiTaskGP_default,assertAllClose,569,"self.assertAllClose(posterior_f.variance, expected_var)"
-./projects/botorch\test\models\test_pairwise_gp.py,TestPairwiseGP_class,test_condition_on_observations,assertAllClose,379,"self.assertAllClose(
+./projects/botorch\test\models\test_pairwise_gp.py,TestPairwiseGP_float32,test_condition_on_observations,assertAllClose,379,"self.assertAllClose(
                         posterior_same_inputs.mean[:, 0, ...],
                         non_batch_posterior.mean,
                         atol=1e-3,
                     )"
-./projects/botorch\test\models\test_pairwise_gp.py,TestPairwiseGP_class,test_condition_on_observations,assertAllClose,384,"self.assertAllClose(
+./projects/botorch\test\models\test_pairwise_gp.py,TestPairwiseGP_float32,test_condition_on_observations,assertAllClose,384,"self.assertAllClose(
+                        posterior_same_inputs.distribution.covariance_matrix[
+                            :, 0, :, :
+                        ],
+                        non_batch_posterior.distribution.covariance_matrix,
+                        atol=1e-3,
+                    )"
+./projects/botorch\test\models\test_pairwise_gp.py,TestPairwiseGP_float32,test_condition_on_observations,assertAllClose,379,"self.assertAllClose(
+                        posterior_same_inputs.mean[:, 0, ...],
+                        non_batch_posterior.mean,
+                        atol=1e-3,
+                    )"
+./projects/botorch\test\models\test_pairwise_gp.py,TestPairwiseGP_float32,test_condition_on_observations,assertAllClose,384,"self.assertAllClose(
                         posterior_same_inputs.distribution.covariance_matrix[
                             :, 0, :, :
                         ],
@@ -679,13 +758,13 @@ filepath,testclass,testname,assertion type,line number,assert string
             )"
 ./projects/botorch\test\models\test_relevance_pursuit.py,TestRobustGP_class,test_robust_relevance_pursuit_single_task_gp,assertAllClose,529,"self.assertAllClose(inferred_numbers_of_outliers, expected_numbers_of_outliers)"
 ./projects/botorch\test\models\test_relevance_pursuit.py,TestRobustGP_class,_test_robust_relevance_pursuit_single_task_gp,assertAllClose,529,"self.assertAllClose(inferred_numbers_of_outliers, expected_numbers_of_outliers)"
-./projects/botorch\test\models\test_relevance_pursuit.py,TestRobustGP_class,test_basic_relevance_pursuit_module,assertAllClose,682,"self.assertAllClose(value, torch.tensor(1.0, device=self.device))"
 ./projects/botorch\test\models\test_relevance_pursuit.py,TestRobustGP_class,test_basic_relevance_pursuit_module,assertAllClose,571,"self.assertAllClose(
                 module.sparse_parameter, torch.zeros_like(module.sparse_parameter)
             )"
 ./projects/botorch\test\models\test_relevance_pursuit.py,TestRobustGP_class,test_basic_relevance_pursuit_module,assertAllClose,579,"self.assertAllClose(
                 module.sparse_parameter, torch.zeros_like(module.sparse_parameter)
             )"
+./projects/botorch\test\models\test_relevance_pursuit.py,TestRobustGP_class,test_basic_relevance_pursuit_module,assertAllClose,682,"self.assertAllClose(value, torch.tensor(1.0, device=self.device))"
 ./projects/botorch\test\models\test_relevance_pursuit.py,TestRobustGP_class,test_experimental_utils,assertAllClose,698,"self.assertAllClose(Y, base_f(X))"
 ./projects/botorch\test\models\kernels\test_categorical.py,TestCategoricalKernel_class,test_forward,assertAllClose,48,"self.assertAllClose(res, actual)"
 ./projects/botorch\test\models\kernels\test_categorical.py,TestCategoricalKernel_class,test_active_dims,assertAllClose,60,"self.assertAllClose(res, actual)"
@@ -721,16 +800,6 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\kernels\test_orthogonal_additive_kernel.py,TestOrthogonalAdditiveKernel_class,test_set_coeffs,assertAllClose,306,"self.assertAllClose(
                 oak.coeffs_2.tril(diagonal=-1), torch.zeros_like(oak.coeffs_2)
             )"
-./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,419,"self.assertAllClose(
-                nlz.coefficient,
-                torch.tensor([[1.0, 2.0]], device=self.device, dtype=dtype),
-            )"
-./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,426,"self.assertAllClose(nlzd_X, expected_X)"
-./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,431,"self.assertAllClose(nlzd_X, expected_X)"
-./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,444,"self.assertAllClose(
-                nlzd_x2.squeeze(),
-                torch.tensor([0.5, -1.0], dtype=dtype, device=self.device),
-            )"
 ./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,277,"self.assertAllClose(X_nlzd.min().item(), center - 0.5)"
 ./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,278,"self.assertAllClose(X_nlzd.max().item(), center + 0.5)"
 ./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,282,"self.assertAllClose(X, X_unnlzd, atol=1e-3, rtol=1e-3)"
@@ -743,6 +812,16 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,355,"self.assertAllClose(X_nlzd[..., 1], X[..., 1])"
 ./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,358,"self.assertAllClose(X, X_unnlzd, atol=1e-4, rtol=1e-4)"
 ./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,363,"self.assertAllClose(nlz.bounds, expected_bounds, atol=1e-4, rtol=1e-4)"
+./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,419,"self.assertAllClose(
+                nlz.coefficient,
+                torch.tensor([[1.0, 2.0]], device=self.device, dtype=dtype),
+            )"
+./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,426,"self.assertAllClose(nlzd_X, expected_X)"
+./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,431,"self.assertAllClose(nlzd_X, expected_X)"
+./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_normalize,assertAllClose,444,"self.assertAllClose(
+                nlzd_x2.squeeze(),
+                torch.tensor([0.5, -1.0], dtype=dtype, device=self.device),
+            )"
 ./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_standardize,assertAllClose,525,"self.assertAllClose(X, X_unstdz, atol=1e-4, rtol=1e-4)"
 ./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_standardize,assertAllClose,528,"self.assertAllClose(stdz.means, expected_means)"
 ./projects/botorch\test\models\transforms\test_input.py,TestInputTransforms_class,test_standardize,assertAllClose,529,"self.assertAllClose(stdz.stds, expected_stds)"
@@ -770,6 +849,10 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,195,"self.assertAllClose(Yvar_tf, Yvar_tf_expected)"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,199,"self.assertAllClose(Y_utf, Y)"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,200,"self.assertAllClose(Yvar_utf, Yvar)"
+./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,219,"self.assertAllClose(p_utf.mean, mean_expected)"
+./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,220,"self.assertAllClose(p_utf.variance, variance_expected)"
+./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,248,"self.assertAllClose(p_utf.mean, mean_expected)"
+./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,249,"self.assertAllClose(p_utf.variance, variance_expected)"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,271,"self.assertAllClose(p_utf2.mean, mean_expected)"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,272,"self.assertAllClose(p_utf2.variance, variance_expected)"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,315,"self.assertAllClose(Y_tf_mean[..., 0], Y.mean(dim=-2)[..., 0])"
@@ -779,10 +862,6 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,346,"self.assertAllClose(Yvar_tf[..., 0], Yvar[..., 0])"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,350,"self.assertAllClose(Y_utf, Y)"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,351,"self.assertAllClose(Yvar_utf, Yvar)"
-./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,219,"self.assertAllClose(p_utf.mean, mean_expected)"
-./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,220,"self.assertAllClose(p_utf.variance, variance_expected)"
-./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,248,"self.assertAllClose(p_utf.mean, mean_expected)"
-./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_standardize,assertAllClose,249,"self.assertAllClose(p_utf.variance, variance_expected)"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_stratified_standardize,assertAllClose,410,"self.assertAllClose(strata_tf.means[..., :1, :], tf0.means)"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_stratified_standardize,assertAllClose,412,"self.assertAllClose(strata_tf.means[..., 1:2, :], tf1.means)"
 ./projects/botorch\test\models\transforms\test_outcome.py,TestOutcomeTransforms_class,test_stratified_standardize,assertAllClose,413,"self.assertAllClose(strata_tf.stdvs[..., :1, :], tf0.stdvs)"
@@ -876,6 +955,10 @@ filepath,testclass,testname,assertion type,line number,assert string
                 transformed[2][0],
                 torch.tensor([6, 7], dtype=torch.int64, device=self.device),
             )"
+./projects/botorch\test\optim\test_initializers.py,TestGenBatchInitialCandidates_class,test_gen_batch_initial_conditions_transform_constraints,assertAllClose,549,"self.assertAllClose(
+                    torch.tensor([-1, -1], dtype=dtype, device=self.device),
+                    constraint[1],
+                )"
 ./projects/botorch\test\optim\test_initializers.py,TestGenBatchInitialCandidates_class,test_gen_batch_initial_conditions_transform_constraints,assertAllClose,554,"self.assertAllClose(
                 transformed[-1][0],
                 torch.tensor([1, 4], dtype=torch.int64, device=self.device),
@@ -884,10 +967,6 @@ filepath,testclass,testname,assertion type,line number,assert string
                 transformed[-1][1],
                 torch.tensor([1.0, -1.0], dtype=dtype, device=self.device),
             )"
-./projects/botorch\test\optim\test_initializers.py,TestGenBatchInitialCandidates_class,test_gen_batch_initial_conditions_transform_constraints,assertAllClose,549,"self.assertAllClose(
-                    torch.tensor([-1, -1], dtype=dtype, device=self.device),
-                    constraint[1],
-                )"
 ./projects/botorch\test\optim\test_initializers.py,TestGenBatchInitialCandidates_class,test_gen_batch_initial_conditions_interpoint_constraints,assertAllClose,811,"self.assertAllClose(
                     batch_initial_conditions[0, 0, 0],
                     batch_initial_conditions[0, 1, 0],
@@ -932,18 +1011,18 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_sample_feasible_points_with_constraints,assertAllClose,191,"self.assertAllClose(X[..., 1], X[..., 1].round())"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,208,"self.assertAllClose(ei_x_none, torch.zeros_like(ei_x_none), atol=1e-3)"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,211,"self.assertAllClose(ei_root_none, torch.full_like(ei_root_none, k))"
+./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,227,"self.assertAllClose(ei_x_none, torch.full_like(ei_x_none, i + 1))"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,230,"self.assertAllClose(X, root)"
+./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,246,"self.assertAllClose(ei_x_none, torch.full_like(ei_x_none, i + 1))"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,248,"self.assertAllClose(X, root)"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,282,"self.assertAllClose(X_clone, X)"
+./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,313,"self.assertAllClose(ei_val, torch.full_like(ei_val, i + 1))"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,314,"self.assertAllClose(
             X[:2], torch.ones(2, device=self.device)
         )"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,317,"self.assertAllClose(X[2:d], root[2:d])"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,318,"self.assertAllClose(X[d:], X_cont)"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,338,"self.assertAllClose(X_new, X)"
-./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,227,"self.assertAllClose(ei_x_none, torch.full_like(ei_x_none, i + 1))"
-./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,246,"self.assertAllClose(ei_x_none, torch.full_like(ei_x_none, i + 1))"
-./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_discrete_step,assertAllClose,313,"self.assertAllClose(ei_val, torch.full_like(ei_val, i + 1))"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_continuous_step,assertAllClose,369,"self.assertAllClose(X_new[cont_dims], root[cont_dims])"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_continuous_step,assertAllClose,370,"self.assertAllClose(X_new[binary_dims], X[binary_dims])"
 ./projects/botorch\test\optim\test_optimize_mixed.py,TestOptimizeAcqfMixed_class,test_continuous_step,assertAllClose,403,"self.assertAllClose(X_new[:2], X_[:2])"
@@ -1047,9 +1126,9 @@ filepath,testclass,testname,assertion type,line number,assert string
             )"
 ./projects/botorch\test\posteriors\test_ensemble.py,TestEnsemblePosterior_class,test_EnsemblePosterior,assertAllClose,85,"self.assertAllClose(p.mean, samples.mean(dim=0), rtol=1e-04, atol=1e-06)"
 ./projects/botorch\test\posteriors\test_ensemble.py,TestEnsemblePosterior_class,test_EnsemblePosterior,assertAllClose,86,"self.assertAllClose(p.variance, samples.var(dim=0), rtol=1e-04, atol=1e-06)"
+./projects/botorch\test\posteriors\test_gpytorch.py,TestGPyTorchPosterior_class,test_GPyTorchPosterior,assertAllClose,83,self.assertAllClose(*samples)
 ./projects/botorch\test\posteriors\test_gpytorch.py,TestGPyTorchPosterior_class,test_GPyTorchPosterior,assertAllClose,92,"self.assertAllClose(quantile, expected)"
 ./projects/botorch\test\posteriors\test_gpytorch.py,TestGPyTorchPosterior_class,test_GPyTorchPosterior,assertAllClose,96,"self.assertAllClose(density, expected)"
-./projects/botorch\test\posteriors\test_gpytorch.py,TestGPyTorchPosterior_class,test_GPyTorchPosterior,assertAllClose,83,self.assertAllClose(*samples)
 ./projects/botorch\test\posteriors\test_gpytorch.py,TestGPyTorchPosterior_class,test_GPyTorchPosterior_Multitask,assertAllClose,124,"self.assertAllClose(samples_b1, samples_b2)"
 ./projects/botorch\test\posteriors\test_gpytorch.py,TestGPyTorchPosterior_class,test_GPyTorchPosterior_Multitask,assertAllClose,132,"self.assertAllClose(samples2_b1, samples2_b2)"
 ./projects/botorch\test\posteriors\test_gpytorch.py,TestGPyTorchPosterior_class,test_degenerate_GPyTorchPosterior,assertAllClose,184,"self.assertAllClose(samples_b1, samples_b2)"
@@ -1149,6 +1228,18 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,333,"self.assertAllClose(X.grad[is_positive], 1 / X[is_positive], atol=tau)"
 ./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,334,"self.assertAllClose(X_soft.grad[is_positive], 1 / X[is_positive], atol=tau)"
 ./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,340,"self.assertAllClose(X_soft.grad[is_negative], asym_val, atol=tau, rtol=tau)"
+./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,360,"self.assertAllClose(
+                            test_max_X,
+                            X.amax(dim=dim, keepdim=keepdim),
+                            atol=math.log(numel) * tau,
+                        )"
+./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,371,"self.assertAllClose(test_max_X, X[..., 0])"
+./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,398,"self.assertAllClose(test_max_X, torch.tensor(torch.inf, **tkwargs))"
+./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,402,"self.assertAllClose(X.grad, torch.ones_like(X.grad))"
+./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,410,"self.assertAllClose(test_max_X, torch.tensor(torch.inf, **tkwargs))"
+./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,414,"self.assertAllClose(X.grad, expected_grad)"
+./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,419,"self.assertAllClose(test_max_X, torch.tensor(-torch.inf, **tkwargs))"
+./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,422,"self.assertAllClose(X.grad, torch.ones_like(X.grad))"
 ./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,428,"self.assertAllClose(logplusexp(x, y), (x.exp() + y.exp()).log(), atol=tol)"
 ./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,432,"self.assertAllClose(logdiffexp(x, y), (y.exp() - x.exp()).log(), atol=tol)"
 ./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,436,"self.assertAllClose(fatmaximum(x, y, tau=tau), x.maximum(y), atol=tau)"
@@ -1165,18 +1256,6 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,514,"self.assertAllClose(sigmoid(X, log=True).exp(), sigmoid_X)"
 ./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,516,"self.assertAllClose(sigmoid(X, fat=True), fatmoid_X)"
 ./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,517,"self.assertAllClose(sigmoid(X, log=True, fat=True).exp(), fatmoid_X)"
-./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,371,"self.assertAllClose(test_max_X, X[..., 0])"
-./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,398,"self.assertAllClose(test_max_X, torch.tensor(torch.inf, **tkwargs))"
-./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,402,"self.assertAllClose(X.grad, torch.ones_like(X.grad))"
-./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,410,"self.assertAllClose(test_max_X, torch.tensor(torch.inf, **tkwargs))"
-./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,414,"self.assertAllClose(X.grad, expected_grad)"
-./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,419,"self.assertAllClose(test_max_X, torch.tensor(-torch.inf, **tkwargs))"
-./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,422,"self.assertAllClose(X.grad, torch.ones_like(X.grad))"
-./projects/botorch\test\utils\test_safe_math.py,TestSmoothNonLinearities_class,test_smooth_non_linearities,assertAllClose,360,"self.assertAllClose(
-                            test_max_X,
-                            X.amax(dim=dim, keepdim=keepdim),
-                            atol=math.log(numel) * tau,
-                        )"
 ./projects/botorch\test\utils\test_transforms.py,TestNormalizeAndUnnormalize_class,test_with_constant_bounds,assertAllClose,96,"self.assertAllClose(X_normalized, X + 1)"
 ./projects/botorch\test\utils\test_transforms.py,TestNormalizeAndUnnormalize_class,test_with_constant_bounds,assertAllClose,98,"self.assertAllClose(X_unnormalized, X)"
 ./projects/botorch\test\utils\multi_objective\test_hypervolume.py,TestGetReferencePoint_class,test_infer_reference_point,assertAllClose,189,"self.assertAllClose(ref_point, expected_ref_point)"
@@ -1205,8 +1284,6 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\utils\probability\test_bvn.py,TestBVN_class,test_bvnmom,assertAllClose,242,"self.assertAllClose(ey, _ey, rtol=0, atol=atol)"
 ./projects/botorch\test\utils\probability\test_linalg.py,TestPivotedCholesky_class,test_augment,assertAllClose,154,"self.assertAllClose(L_augmented, L)"
 ./projects/botorch\test\utils\probability\test_linalg.py,TestPivotedCholesky_class,test_augment,assertAllClose,161,"self.assertAllClose(L_augmented, L)"
-./projects/botorch\test\utils\probability\test_lin_ess.py,TestLinearEllipticalSliceSampler_class,test_multivariate,assertAllClose,381,"self.assertAllClose(csum[:, -1].item(), 2 * math.pi)"
-./projects/botorch\test\utils\probability\test_lin_ess.py,TestLinearEllipticalSliceSampler_class,test_multivariate,assertAllClose,396,"self.assertAllClose(csum[:, -1].item(), 2 * math.pi)"
 ./projects/botorch\test\utils\probability\test_lin_ess.py,TestLinearEllipticalSliceSampler_class,test_multivariate,assertAllClose,279,"self.assertAllClose(sampler._Az, Az_i, atol=atol)"
 ./projects/botorch\test\utils\probability\test_lin_ess.py,TestLinearEllipticalSliceSampler_class,test_multivariate,assertAllClose,280,"self.assertAllClose(sampler._bz, bz_i, atol=atol)"
 ./projects/botorch\test\utils\probability\test_lin_ess.py,TestLinearEllipticalSliceSampler_class,test_multivariate,assertAllClose,285,"self.assertAllClose(
@@ -1239,6 +1316,8 @@ filepath,testclass,testname,assertion type,line number,assert string
                         sampler._is_feasible(X_test, transformed=False),
                         atol=atol,
                     )"
+./projects/botorch\test\utils\probability\test_lin_ess.py,TestLinearEllipticalSliceSampler_class,test_multivariate,assertAllClose,381,"self.assertAllClose(csum[:, -1].item(), 2 * math.pi)"
+./projects/botorch\test\utils\probability\test_lin_ess.py,TestLinearEllipticalSliceSampler_class,test_multivariate,assertAllClose,396,"self.assertAllClose(csum[:, -1].item(), 2 * math.pi)"
 ./projects/botorch\test\utils\probability\test_mvnxpb.py,TestMVNXPB_class,test_solve,assertAllClose,180,"self.assertAllClose(est, prob, rtol=0, atol=atol)"
 ./projects/botorch\test\utils\probability\test_unified_skew_normal.py,TestUnifiedSkewNormal_class,test_rsample,assertAllClose,173,"self.assertAllClose(_means, means, rtol=0, atol=atol)"
 ./projects/botorch\test\utils\probability\test_unified_skew_normal.py,TestUnifiedSkewNormal_class,test_rsample,assertAllClose,174,"self.assertAllClose(_covar, covar, rtol=0, atol=atol)"
@@ -1246,11 +1325,6 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test\utils\probability\test_unified_skew_normal.py,TestUnifiedSkewNormal_class,test_covariance_matrix,assertAllClose,279,"self.assertAllClose(cov, cov_linop)"
 ./projects/botorch\test\utils\probability\test_utils.py,TestProbabilityUtils_class,test_gaussian_probabilities,assertAllClose,172,"self.assertAllClose(phi(x), log_phi(x).exp(), atol=atol, rtol=rtol)"
 ./projects/botorch\test\utils\probability\test_utils.py,TestProbabilityUtils_class,test_gaussian_probabilities,assertAllClose,173,"self.assertAllClose(ndtr(x), log_ndtr(x).exp(), atol=atol, rtol=rtol)"
-./projects/botorch\test\utils\probability\test_utils.py,TestProbabilityUtils_class,test_gaussian_probabilities,assertAllClose,313,"self.assertAllClose(
-                expected_log_hx,
-                log_hx,
-                atol=1e-8 if dtype == torch.double else 1e-7,
-            )"
 ./projects/botorch\test\utils\probability\test_utils.py,TestProbabilityUtils_class,test_gaussian_probabilities,assertAllClose,187,"self.assertAllClose(
                         custom_log_fx, special_log_fx, atol=atol, rtol=rtol
                     )"
@@ -1261,6 +1335,11 @@ filepath,testclass,testname,assertion type,line number,assert string
                         atol=atol,
                         rtol=rtol,
                     )"
+./projects/botorch\test\utils\probability\test_utils.py,TestProbabilityUtils_class,test_gaussian_probabilities,assertAllClose,313,"self.assertAllClose(
+                expected_log_hx,
+                log_hx,
+                atol=1e-8 if dtype == torch.double else 1e-7,
+            )"
 ./projects/botorch\test_community\acquisition\test_multi_source.py,TestAugmentedUpperConfidenceBound_class,test_upper_confidence_bound,assertAllClose,52,"self.assertAllClose(ucb, ucb_expected, atol=1e-4)"
 ./projects/botorch\test_community\acquisition\test_multi_source.py,TestAugmentedUpperConfidenceBound_class,test_upper_confidence_bound,assertAllClose,64,"self.assertAllClose(ucb, ucb_expected, atol=1e-4)"
 ./projects/botorch\test_community\acquisition\test_multi_source.py,TestAugmentedUpperConfidenceBound_class,test_upper_confidence_bound_batch,assertAllClose,102,"self.assertAllClose(ucb, ucb_expected, atol=1e-4)"
@@ -1282,62 +1361,34 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/botorch\test_community\acquisition\test_rei.py,TestLogRegionalExpectedImprovement_class,_test_log_regional_expected_improvement,assertAllClose,68,"self.assertAllClose(log_rei, rei_expected.log(), atol=1e-4)"
 ./projects/botorch\test_community\acquisition\test_rei.py,TestLogRegionalExpectedImprovement_class,_test_log_regional_expected_improvement,assertAllClose,84,"self.assertAllClose(log_rei(X), rei_expected.log(), atol=1e-4)"
 ./projects/botorch\test_community\acquisition\test_rei.py,TestLogRegionalExpectedImprovement_class,_test_log_regional_expected_improvement,assertAllClose,102,"self.assertAllClose(log_rei(X), rei_expected.log(), atol=1e-4)"
-./projects/botorch\test_community\models\test_gp_regression_multisource.py,TestAugmentedSingleTaskGP_class,test_gp,assertAllClose,236,"self.assertAllClose(posterior_pred.variance, posterior.variance + obs_noise)"
 ./projects/botorch\test_community\models\test_gp_regression_multisource.py,TestAugmentedSingleTaskGP_class,test_gp,assertAllClose,222,"self.assertAllClose(posterior_pred.variance, expected_var)"
 ./projects/botorch\test_community\models\test_gp_regression_multisource.py,TestAugmentedSingleTaskGP_class,test_gp,assertAllClose,226,"self.assertAllClose(pvar, pvar_exp, rtol=1e-4, atol=1e-5)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,87,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,91,"self.assertAllClose(dist.logdet_precision, expected_logdet_prec)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,95,"self.assertAllClose(dist.trace_covariance, expected_trace)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,99,"self.assertAllClose(dist.trace_precision, expected_trace_prec)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,116,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,121,"self.assertAllClose(actual_prec_prod, expected_prec_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_addition,assertAllClose,145,"self.assertAllClose(result.scale, expected_scale)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_matmul,assertAllClose,186,"self.assertAllClose(result.scale, expected_scale)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,237,"self.assertAllClose(dist.covariance, expected_cov)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,241,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,245,"self.assertAllClose(dist.trace_covariance, expected_trace)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,257,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,264,"self.assertAllClose(actual_prec_prod, expected_prec_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inverse_covariance,assertAllClose,282,"self.assertAllClose(actual_inv_cov, expected_inv_cov)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inverse_covariance,assertAllClose,288,"self.assertAllClose(identity_approx, eye, rtol=1e-5, atol=1e-5)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_matmul,assertAllClose,310,"self.assertAllClose(result.scale, expected_scale)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,379,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,385,"self.assertAllClose(dist.trace_covariance, expected_trace)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,401,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_matmul,assertAllClose,429,"self.assertAllClose(result.scale, expected_scale)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,480,"self.assertAllClose(dist.inverse_covariance, expected_prec)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,488,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,500,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,505,"self.assertAllClose(actual_prec_prod, expected_prec_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_covariance,assertAllClose,517,"self.assertAllClose(actual_cov, expected_cov)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_covariance,assertAllClose,523,"self.assertAllClose(identity_approx, eye, rtol=1e-5, atol=1e-5)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_covariance,assertAllClose,526,"self.assertAllClose(actual_cov, actual_cov.t())"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_matmul,assertAllClose,548,"self.assertAllClose(result.scale, expected_scale)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,87,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,91,"self.assertAllClose(dist.logdet_precision, expected_logdet_prec)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,95,"self.assertAllClose(dist.trace_covariance, expected_trace)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,99,"self.assertAllClose(dist.trace_precision, expected_trace_prec)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,116,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,121,"self.assertAllClose(actual_prec_prod, expected_prec_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_addition,assertAllClose,145,"self.assertAllClose(result.scale, expected_scale)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_matmul,assertAllClose,186,"self.assertAllClose(result.scale, expected_scale)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,237,"self.assertAllClose(dist.covariance, expected_cov)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,241,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,245,"self.assertAllClose(dist.trace_covariance, expected_trace)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,257,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,264,"self.assertAllClose(actual_prec_prod, expected_prec_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inverse_covariance,assertAllClose,282,"self.assertAllClose(actual_inv_cov, expected_inv_cov)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inverse_covariance,assertAllClose,288,"self.assertAllClose(identity_approx, eye, rtol=1e-5, atol=1e-5)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_matmul,assertAllClose,310,"self.assertAllClose(result.scale, expected_scale)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,379,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,385,"self.assertAllClose(dist.trace_covariance, expected_trace)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,401,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_matmul,assertAllClose,429,"self.assertAllClose(result.scale, expected_scale)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,480,"self.assertAllClose(dist.inverse_covariance, expected_prec)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_properties,assertAllClose,488,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,500,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_inner_products,assertAllClose,505,"self.assertAllClose(actual_prec_prod, expected_prec_prod.squeeze(-1))"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_covariance,assertAllClose,517,"self.assertAllClose(actual_cov, expected_cov)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_covariance,assertAllClose,523,"self.assertAllClose(identity_approx, eye, rtol=1e-5, atol=1e-5)"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_covariance,assertAllClose,526,"self.assertAllClose(actual_cov, actual_cov.t())"
-./projects/botorch\test_community\models\test_vbll_helper.py,VBLLHelperTestCase,test_matmul,assertAllClose,548,"self.assertAllClose(result.scale, expected_scale)"
+./projects/botorch\test_community\models\test_gp_regression_multisource.py,TestAugmentedSingleTaskGP_class,test_gp,assertAllClose,236,"self.assertAllClose(posterior_pred.variance, posterior.variance + obs_noise)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestNormal_class,test_properties,assertAllClose,87,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestNormal_class,test_properties,assertAllClose,91,"self.assertAllClose(dist.logdet_precision, expected_logdet_prec)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestNormal_class,test_properties,assertAllClose,95,"self.assertAllClose(dist.trace_covariance, expected_trace)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestNormal_class,test_properties,assertAllClose,99,"self.assertAllClose(dist.trace_precision, expected_trace_prec)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestNormal_class,test_inner_products,assertAllClose,116,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestNormal_class,test_inner_products,assertAllClose,121,"self.assertAllClose(actual_prec_prod, expected_prec_prod.squeeze(-1))"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestNormal_class,test_addition,assertAllClose,145,"self.assertAllClose(result.scale, expected_scale)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestNormal_class,test_matmul,assertAllClose,186,"self.assertAllClose(result.scale, expected_scale)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormal_class,test_properties,assertAllClose,237,"self.assertAllClose(dist.covariance, expected_cov)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormal_class,test_properties,assertAllClose,241,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormal_class,test_properties,assertAllClose,245,"self.assertAllClose(dist.trace_covariance, expected_trace)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormal_class,test_inner_products,assertAllClose,257,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormal_class,test_inner_products,assertAllClose,264,"self.assertAllClose(actual_prec_prod, expected_prec_prod.squeeze(-1))"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormal_class,test_inverse_covariance,assertAllClose,282,"self.assertAllClose(actual_inv_cov, expected_inv_cov)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormal_class,test_inverse_covariance,assertAllClose,288,"self.assertAllClose(identity_approx, eye, rtol=1e-5, atol=1e-5)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormal_class,test_matmul,assertAllClose,310,"self.assertAllClose(result.scale, expected_scale)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestLowRankNormal_class,test_properties,assertAllClose,379,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestLowRankNormal_class,test_properties,assertAllClose,385,"self.assertAllClose(dist.trace_covariance, expected_trace)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestLowRankNormal_class,test_inner_products,assertAllClose,401,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestLowRankNormal_class,test_matmul,assertAllClose,429,"self.assertAllClose(result.scale, expected_scale)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormalPrec_class,test_properties,assertAllClose,480,"self.assertAllClose(dist.inverse_covariance, expected_prec)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormalPrec_class,test_properties,assertAllClose,488,"self.assertAllClose(dist.logdet_covariance, expected_logdet)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormalPrec_class,test_inner_products,assertAllClose,500,"self.assertAllClose(actual_cov_prod, expected_cov_prod.squeeze(-1))"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormalPrec_class,test_inner_products,assertAllClose,505,"self.assertAllClose(actual_prec_prod, expected_prec_prod.squeeze(-1))"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormalPrec_class,test_covariance,assertAllClose,517,"self.assertAllClose(actual_cov, expected_cov)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormalPrec_class,test_covariance,assertAllClose,523,"self.assertAllClose(identity_approx, eye, rtol=1e-5, atol=1e-5)"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormalPrec_class,test_covariance,assertAllClose,526,"self.assertAllClose(actual_cov, actual_cov.t())"
+./projects/botorch\test_community\models\test_vbll_helper.py,TestDenseNormalPrec_class,test_matmul,assertAllClose,548,"self.assertAllClose(result.scale, expected_scale)"

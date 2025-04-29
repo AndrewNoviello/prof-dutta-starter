@@ -37,18 +37,12 @@ filepath,testclass,testname,assertion type,line number,assert string
         c_last_output.numpy(), c_first_output.numpy(), atol=1e-5, rtol=1e-5)"
 ./projects/sonnet\sonnet\src\group_norm_test.py,GroupNormTest_class,test3DDataFormatAgnostic,assertAllClose,313,"self.assertAllClose(
         c_last_output.numpy(), c_first_output.numpy(), atol=1e-5, rtol=1e-5)"
-./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testShapesValues,assertAllClose,358,"self.assertAllClose(
+./projects/sonnet\sonnet\src\initializers_test.py,OrthogonalInitializerTest_class,testShapesValues,assertAllClose,358,"self.assertAllClose(
           np.dot(t.T, t), np.eye(t.shape[1]), rtol=tol, atol=tol)"
-./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testShapesValues,assertAllClose,361,"self.assertAllClose(
+./projects/sonnet\sonnet\src\initializers_test.py,OrthogonalInitializerTest_class,testShapesValues,assertAllClose,361,"self.assertAllClose(
           np.dot(t, t.T), np.eye(t.shape[0]), rtol=tol, atol=tol)"
-./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testWithTFFunction,assertAllClose,514,"self.assertAllClose(expected, x)"
-./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testBatchAgnostic,assertAllClose,530,"self.assertAllClose(expected, x)"
-./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testShapesValues,assertAllClose,358,"self.assertAllClose(
-          np.dot(t.T, t), np.eye(t.shape[1]), rtol=tol, atol=tol)"
-./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testShapesValues,assertAllClose,361,"self.assertAllClose(
-          np.dot(t, t.T), np.eye(t.shape[0]), rtol=tol, atol=tol)"
-./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testWithTFFunction,assertAllClose,514,"self.assertAllClose(expected, x)"
-./projects/sonnet\sonnet\src\initializers_test.py,InitializersTest,testBatchAgnostic,assertAllClose,530,"self.assertAllClose(expected, x)"
+./projects/sonnet\sonnet\src\initializers_test.py,VarianceScalingInitializerTest_class,testWithTFFunction,assertAllClose,514,"self.assertAllClose(expected, x)"
+./projects/sonnet\sonnet\src\initializers_test.py,VarianceScalingInitializerTest_class,testBatchAgnostic,assertAllClose,530,"self.assertAllClose(expected, x)"
 ./projects/sonnet\sonnet\src\linear_test.py,LinearTest_class,testCallMultiBatch,assertAllClose,106,"self.assertAllClose(tf_output, np_output, atol=1e-2, rtol=5e-2)"
 ./projects/sonnet\sonnet\src\linear_test.py,LinearTest_class,testFunction,assertAllClose,123,"self.assertAllClose(self.evaluate(y1), self.evaluate(y2), atol=1e-4)"
 ./projects/sonnet\sonnet\src\moving_averages_test.py,ExponentialMovingAverageTest_class,testCall,assertAllClose,28,"self.assertAllClose(ema(3.0).numpy(), 3.0)"
@@ -208,74 +202,144 @@ filepath,testclass,testname,assertion type,line number,assert string
 ./projects/sonnet\sonnet\src\optimizers\adam_test.py,AdamTest_class,testHyperParamDTypeConversion,assertAllClose,143,"self.assertAllClose([[0.999, 1.999], [2.999, 3.999]],
                         [x.numpy() for x in parameters],
                         rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDense,assertAllClose,64,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDense,assertAllClose,64,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDense,assertAllClose,68,"self.assertAllClose([[-0.45, 0.55], [2.13, 3.13]],
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDense,assertAllClose,68,"self.assertAllClose([[-0.45, 0.55], [2.13, 3.13]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDense,assertAllClose,72,"self.assertAllClose([[-1.805, -0.805], [1.317, 2.317]],
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDense,assertAllClose,72,"self.assertAllClose([[-1.805, -0.805], [1.317, 2.317]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDenseNesterov,assertAllClose,82,"self.assertAllClose([[0.05, 1.05], [2.43, 3.43]],
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDenseNesterov,assertAllClose,82,"self.assertAllClose([[0.05, 1.05], [2.43, 3.43]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDenseNesterov,assertAllClose,86,"self.assertAllClose([[-1.305, -0.305], [1.617, 2.617]],
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDenseNesterov,assertAllClose,86,"self.assertAllClose([[-1.305, -0.305], [1.617, 2.617]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testDenseNesterov,assertAllClose,90,"self.assertAllClose([[-3.0245, -2.0245], [0.5853, 1.5853]],
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDenseNesterov,assertAllClose,90,"self.assertAllClose([[-3.0245, -2.0245], [0.5853, 1.5853]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,110,"self.assertAllClose([[1.0 - 3.0 * 0.1], [2.0]], parameters[0].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,111,"self.assertAllClose([[3.0], [4.0 - 3.0 * 0.01]], parameters[1].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,114,"self.assertAllClose([[0.7 - 3.0 * 0.19], [2.0]], parameters[0].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,115,"self.assertAllClose([[3.0], [3.97 - 3.0 * 0.019]], parameters[1].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,118,"self.assertAllClose([[0.13 - 3.0 * 0.271], [2.0]], parameters[0].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparse,assertAllClose,119,"self.assertAllClose([[3.0], [3.913 - 3.0 * 0.0271]], parameters[1].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,139,"self.assertAllClose([[0.43], [2.0]], parameters[0].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,140,"self.assertAllClose([[3.0], [3.943]], parameters[1].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,143,"self.assertAllClose([[-0.383], [2.0]], parameters[0].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,144,"self.assertAllClose([[3.0], [3.8617]], parameters[1].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,147,"self.assertAllClose([[-1.4147], [2.0]], parameters[0].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testSparseNesterov,assertAllClose,148,"self.assertAllClose([[3.0], [3.75853]], parameters[1].numpy())"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testVariableHyperParams,assertAllClose,161,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,110,"self.assertAllClose([[1.0 - 3.0 * 0.1], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,111,"self.assertAllClose([[3.0], [4.0 - 3.0 * 0.01]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,114,"self.assertAllClose([[0.7 - 3.0 * 0.19], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,115,"self.assertAllClose([[3.0], [3.97 - 3.0 * 0.019]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,118,"self.assertAllClose([[0.13 - 3.0 * 0.271], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,119,"self.assertAllClose([[3.0], [3.913 - 3.0 * 0.0271]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,139,"self.assertAllClose([[0.43], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,140,"self.assertAllClose([[3.0], [3.943]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,143,"self.assertAllClose([[-0.383], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,144,"self.assertAllClose([[3.0], [3.8617]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,147,"self.assertAllClose([[-1.4147], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,148,"self.assertAllClose([[3.0], [3.75853]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testVariableHyperParams,assertAllClose,161,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testVariableHyperParams,assertAllClose,168,"self.assertAllClose([[0.4455, 1.4455], [2.6673, 3.6673]],
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testVariableHyperParams,assertAllClose,168,"self.assertAllClose([[0.4455, 1.4455], [2.6673, 3.6673]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\momentum_test.py,MomentumTest_class,testHyperParamDTypeConversion,assertAllClose,180,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testHyperParamDTypeConversion,assertAllClose,180,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDense,assertAllClose,64,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDense,assertAllClose,68,"self.assertAllClose([[-0.45, 0.55], [2.13, 3.13]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDense,assertAllClose,72,"self.assertAllClose([[-1.805, -0.805], [1.317, 2.317]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDenseNesterov,assertAllClose,82,"self.assertAllClose([[0.05, 1.05], [2.43, 3.43]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDenseNesterov,assertAllClose,86,"self.assertAllClose([[-1.305, -0.305], [1.617, 2.617]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testDenseNesterov,assertAllClose,90,"self.assertAllClose([[-3.0245, -2.0245], [0.5853, 1.5853]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,110,"self.assertAllClose([[1.0 - 3.0 * 0.1], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,111,"self.assertAllClose([[3.0], [4.0 - 3.0 * 0.01]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,114,"self.assertAllClose([[0.7 - 3.0 * 0.19], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,115,"self.assertAllClose([[3.0], [3.97 - 3.0 * 0.019]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,118,"self.assertAllClose([[0.13 - 3.0 * 0.271], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparse,assertAllClose,119,"self.assertAllClose([[3.0], [3.913 - 3.0 * 0.0271]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,139,"self.assertAllClose([[0.43], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,140,"self.assertAllClose([[3.0], [3.943]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,143,"self.assertAllClose([[-0.383], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,144,"self.assertAllClose([[3.0], [3.8617]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,147,"self.assertAllClose([[-1.4147], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testSparseNesterov,assertAllClose,148,"self.assertAllClose([[3.0], [3.75853]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testVariableHyperParams,assertAllClose,161,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testVariableHyperParams,assertAllClose,168,"self.assertAllClose([[0.4455, 1.4455], [2.6673, 3.6673]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\momentum_test.py,ReferenceMomentumTest,testHyperParamDTypeConversion,assertAllClose,180,"self.assertAllClose([[0.5, 1.5], [2.7, 3.7]],
                         [x.numpy() for x in parameters])"
 ./projects/sonnet\sonnet\src\optimizers\optimizer_tests.py,OptimizerTestBase_class,testNoneUpdate,assertAllClose,58,"self.assertAllClose(1., parameters[0].numpy())"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDense,assertAllClose,68,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDense,assertAllClose,68,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDense,assertAllClose,72,"self.assertAllClose([[0.454357, 1.454357], [2.454357, 3.454357]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDense,assertAllClose,72,"self.assertAllClose([[0.454357, 1.454357], [2.454357, 3.454357]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDense,assertAllClose,76,"self.assertAllClose([[0.262262, 1.262262], [2.262262, 3.262262]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDense,assertAllClose,76,"self.assertAllClose([[0.262262, 1.262262], [2.262262, 3.262262]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDenseCentered,assertAllClose,85,"self.assertAllClose([[0.666667, 1.666667], [2.666667, 3.666667]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDenseCentered,assertAllClose,85,"self.assertAllClose([[0.666667, 1.666667], [2.666667, 3.666667]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDenseCentered,assertAllClose,89,"self.assertAllClose([[0.41176, 1.41176], [2.41176, 3.41176]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDenseCentered,assertAllClose,89,"self.assertAllClose([[0.41176, 1.41176], [2.41176, 3.41176]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testDenseCentered,assertAllClose,93,"self.assertAllClose([[0.186776, 1.186776], [2.186776, 3.186776]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDenseCentered,assertAllClose,93,"self.assertAllClose([[0.186776, 1.186776], [2.186776, 3.186776]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,113,"self.assertAllClose([[-8.486831], [2.0]], parameters[0].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,114,"self.assertAllClose([[3.0], [-5.486784]], parameters[1].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,117,"self.assertAllClose([[-15.369301], [2.0]], parameters[0].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,118,"self.assertAllClose([[3.0], [-12.369237]], parameters[1].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,121,"self.assertAllClose([[-21.132141], [2.0]], parameters[0].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparse,assertAllClose,122,"self.assertAllClose([[3.0], [-18.132067]], parameters[1].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,141,"self.assertAllClose([[-8.999999], [2.0]], parameters[0].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,142,"self.assertAllClose([[3.0], [-5.999944]], parameters[1].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,145,"self.assertAllClose([[-16.64719], [2.0]], parameters[0].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,146,"self.assertAllClose([[3.0], [-13.647109]], parameters[1].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,149,"self.assertAllClose([[-23.396709], [2.0]], parameters[0].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testSparseCentered,assertAllClose,150,"self.assertAllClose([[3.0], [-20.39661]], parameters[1].numpy(), rtol=1e-4)"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testVariableHyperParams,assertAllClose,158,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,113,"self.assertAllClose([[-8.486831], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,114,"self.assertAllClose([[3.0], [-5.486784]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,117,"self.assertAllClose([[-15.369301], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,118,"self.assertAllClose([[3.0], [-12.369237]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,121,"self.assertAllClose([[-21.132141], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,122,"self.assertAllClose([[3.0], [-18.132067]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,141,"self.assertAllClose([[-8.999999], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,142,"self.assertAllClose([[3.0], [-5.999944]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,145,"self.assertAllClose([[-16.64719], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,146,"self.assertAllClose([[3.0], [-13.647109]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,149,"self.assertAllClose([[-23.396709], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,150,"self.assertAllClose([[3.0], [-20.39661]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testVariableHyperParams,assertAllClose,158,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testVariableHyperParams,assertAllClose,163,"self.assertAllClose([[0.660831, 1.660831], [2.660831, 3.660831]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testVariableHyperParams,assertAllClose,163,"self.assertAllClose([[0.660831, 1.660831], [2.660831, 3.660831]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,RMSPropTest_class,testHyperParamDTypeConversion,assertAllClose,183,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testHyperParamDTypeConversion,assertAllClose,183,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testDense,assertAllClose,34,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDense,assertAllClose,68,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testSparse,assertAllClose,52,"self.assertAllClose([[1.0 - 3.0 * 0.1], [2.0]], parameters[0].numpy())"
-./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testSparse,assertAllClose,53,"self.assertAllClose([[3.0], [4.0 - 3.0 * 0.01]], parameters[1].numpy())"
-./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testVariableLearningRate,assertAllClose,61,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDense,assertAllClose,72,"self.assertAllClose([[0.454357, 1.454357], [2.454357, 3.454357]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testVariableLearningRate,assertAllClose,66,"self.assertAllClose([[-24., -23.], [-12., -11.]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDense,assertAllClose,76,"self.assertAllClose([[0.262262, 1.262262], [2.262262, 3.262262]],
                         [x.numpy() for x in parameters])"
-./projects/sonnet\sonnet\src\optimizers\sgd_test.py,SGDTest_class,testLearningRateDTypeConversion,assertAllClose,76,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDenseCentered,assertAllClose,85,"self.assertAllClose([[0.666667, 1.666667], [2.666667, 3.666667]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDenseCentered,assertAllClose,89,"self.assertAllClose([[0.41176, 1.41176], [2.41176, 3.41176]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testDenseCentered,assertAllClose,93,"self.assertAllClose([[0.186776, 1.186776], [2.186776, 3.186776]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,113,"self.assertAllClose([[-8.486831], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,114,"self.assertAllClose([[3.0], [-5.486784]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,117,"self.assertAllClose([[-15.369301], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,118,"self.assertAllClose([[3.0], [-12.369237]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,121,"self.assertAllClose([[-21.132141], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparse,assertAllClose,122,"self.assertAllClose([[3.0], [-18.132067]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,141,"self.assertAllClose([[-8.999999], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,142,"self.assertAllClose([[3.0], [-5.999944]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,145,"self.assertAllClose([[-16.64719], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,146,"self.assertAllClose([[3.0], [-13.647109]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,149,"self.assertAllClose([[-23.396709], [2.0]], parameters[0].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testSparseCentered,assertAllClose,150,"self.assertAllClose([[3.0], [-20.39661]], parameters[1].numpy(), rtol=1e-4)"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testVariableHyperParams,assertAllClose,158,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testVariableHyperParams,assertAllClose,163,"self.assertAllClose([[0.660831, 1.660831], [2.660831, 3.660831]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\rmsprop_test.py,ReferenceRMSPropTest,testHyperParamDTypeConversion,assertAllClose,183,"self.assertAllClose([[0.683772, 1.683772], [2.683772, 3.683772]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testDense,assertAllClose,34,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testSparse,assertAllClose,52,"self.assertAllClose([[1.0 - 3.0 * 0.1], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testSparse,assertAllClose,53,"self.assertAllClose([[3.0], [4.0 - 3.0 * 0.01]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testVariableLearningRate,assertAllClose,61,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testVariableLearningRate,assertAllClose,66,"self.assertAllClose([[-24., -23.], [-12., -11.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testLearningRateDTypeConversion,assertAllClose,76,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testDense,assertAllClose,34,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testSparse,assertAllClose,52,"self.assertAllClose([[1.0 - 3.0 * 0.1], [2.0]], parameters[0].numpy())"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testSparse,assertAllClose,53,"self.assertAllClose([[3.0], [4.0 - 3.0 * 0.01]], parameters[1].numpy())"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testVariableLearningRate,assertAllClose,61,"self.assertAllClose([[-14., -13.], [-6., -5.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testVariableLearningRate,assertAllClose,66,"self.assertAllClose([[-24., -23.], [-12., -11.]],
+                        [x.numpy() for x in parameters])"
+./projects/sonnet\sonnet\src\optimizers\sgd_test.py,ReferenceSGDTest,testLearningRateDTypeConversion,assertAllClose,76,"self.assertAllClose([[-14., -13.], [-6., -5.]],
                         [x.numpy() for x in parameters])"

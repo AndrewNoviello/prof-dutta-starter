@@ -1,0 +1,61 @@
+Evaluation:
+
+Q1. How many assertions did you find in each project?
+
+I tested the tool on the following projects: https://github.com/magenta/magenta (magenta),
+https://github.com/pytorch/botorch (botorch), and https://github.com/google-deepmind/sonnet (sonnet).
+I chose these projects because they are of manageable size as opposed to some of the other
+pytorch projects which are absolutely huge! I also have worked with magenta a lot because my
+startup is in music edtech, so I thought it would be fine to use it for this. For magenta,
+the tool found 115 flaky tests, for botorch, if found roughly 1300 flaky tests, and for sonnet,
+it found roughly 300 flaky tests. Note that many of these could be duplicates as I chose to
+document assertions multiple times based on inheritance (documented once for subclass and once
+for superclass) and function calling (if multiple test functions call each other, the
+relevant assertions were documented for both the original test function and the called function).
+
+Q2. How do you validate if the tool correctly finds all assertions?
+
+I wasn't sure how to validate this, but it seemingly finds a lot of tests, and
+from my random sampling examination of the tool's outputs and certain test files,
+I am fairly confident it found many of the assertions. I did not think a manual
+review made any sense time-wise for such a starter task, so I did not invest the
+time to manually review all the assertions. Of course, in a real research setting,
+I would do so.
+
+
+Q3. Did your tool miss any assertions? If yes, explain why.
+
+Yes, it would have missed the following types of assertions:
+- Assertions in imported functions that were called by the tests. This was a design decision
+to meet the spec of the task.
+- Assertions related to inheriting nested classes (i.e. nested class
+is a superclass, e.g. extends Class1.Class2). This was a design decision, as well.
+- Flaky assertions on comparisons between two float variables (not constants). I don't
+think one can confidently get the types of python variables on static analysis
+(without far more complicated tracing logic), so I chose to just ignore these cases.
+These are the only types of assertions that the tool should miss. If you notice anything else,
+please let me know!
+
+
+Q4. What were the key challenges that you faced in your implementation? How did you solve them?
+
+The main key challenge that I faced in my implementation was creating/managing both the inheritance
+structures for class objects and the function call graphs while respecting scope. I reasoned
+that it would be very possible for there to be duplicate named functions at different scopes,
+so maintaining any sort of global structure other than a tree over the project would need full
+scope paths to be reliable. As such, in my original recursive collection of the function and
+class definitions, I made sure to log full scope paths. Some other challenges were recovering
+the correct class/functions from base names and scope paths (the 'resolve' functions) and handling
+the inherited assertions (see section at the bottom of process_file). To be honest though, the
+real hard part was not the code but rather just deciding exactly how I wanted to treat nested
+functions, nested classes, etc. in terms of the output csv and the relevant graphs.
+
+
+*Note that LLMs were used throughout the project, although they didn't work too well
+for this, so most of the code I just wrote myself. My typical coding pattern these
+days for production projects is to first have the LLM (typically Claude from Cursor)
+try to generate the code, then reviewing/testing it, try to tweak the prompts for a little while,
+then if it still doesn't work, just writing the code myself. The LLMs provided a fine base
+implementation for this starter task, but they didn't handle nested classes, functions, scope concerns,
+etc., so I had to write most of the code from scratch myself. When I did use LLMs,
+it was the browser-based ChatGPT and Claude, not via Cursor.
