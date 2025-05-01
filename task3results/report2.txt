@@ -1,0 +1,5 @@
+*LLMs were used more considerably for this task than the prior. This is because
+this task is a little simpler logic-wise, so I found that much of the LLM-generated
+code was satisfactory based on the goals for this task #3. Note that this is in part
+because I relaxed some of the scope paranoia from the previous task: given that we
+only had to run this on about 10 tests per projects, we can just look at top-level tests.

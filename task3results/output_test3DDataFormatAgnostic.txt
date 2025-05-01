@@ -1,0 +1,400 @@
+=== Run 1 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 2 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 3 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 4 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 5 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 6 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 7 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 8 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 9 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 10 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 11 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 12 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 13 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 14 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 15 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 16 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 17 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 18 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 19 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 20 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 21 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 22 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 23 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 24 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 25 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 26 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 27 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 28 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 29 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 30 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 31 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 32 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 33 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 34 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 35 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 36 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 37 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 38 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 39 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 40 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 41 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 42 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 43 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 44 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 45 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 46 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 47 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 48 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 49 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 50 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 51 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 52 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 53 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 54 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 55 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 56 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 57 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 58 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 59 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 60 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 61 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 62 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 63 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 64 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 65 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 66 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 67 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 68 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 69 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 70 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 71 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 72 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 73 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 74 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 75 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 76 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 77 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 78 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 79 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 80 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 81 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 82 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 83 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 84 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 85 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 86 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 87 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 88 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 89 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 90 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 91 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 92 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 93 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 94 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 95 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 96 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 97 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 98 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 99 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
+=== Run 100 ===
+log>>>c_last_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+log>>>c_first_output.numpy(): {'min': np.float32(-3.29393), 'max': np.float32(4.4269857)}
+
