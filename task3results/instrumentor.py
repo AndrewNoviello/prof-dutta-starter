@@ -33,7 +33,6 @@ def generate_logging_code(var_name):
             value=ast.Call(
                 func=ast.Name(id='print', ctx=ast.Load()),
                 args=[
-                    ast.Constant(value=f"log>>>"),
                     ast.Call(
                         func=ast.Name(id='safe_log', ctx=ast.Load()),
                         args=[ast.Name(id=var_name, ctx=ast.Load())],
@@ -130,11 +129,9 @@ def instrumentor(source, test_name, assertion_line):
                 elif isinstance(stmt_node, ast.Expr) and isinstance(stmt_node.value, ast.Call):
                     # Same as above, but uses the function args instead of the
                     # compared variables directly.
-                    print("in functions call assertions")
                     call = stmt_node.value
                     targets = []
                     for arg in call.args:
-                        print('arg', arg)
                         targets += extract_assert_vars(arg)
                     logging_nodes = []
                     for var in targets:
@@ -142,23 +139,28 @@ def instrumentor(source, test_name, assertion_line):
                 else:
                     continue
 
-                print("logging nodes", [ast.unparse(ln) for ln in logging_nodes])
-                for container in ast.walk(function_node):
-                    if (hasattr(container, 'body') and isinstance(container.body, list) and
-                        any(stmt is stmt_node for stmt in container.body)):
-                        # Find the position to insert
-                        for idx, stmt in enumerate(container.body):
+                # This loop is to find the parent node of the assertion,
+                # so that we may insert the logging code appropriately directly above
+                # the assertion.
+                for parent in ast.walk(function_node):
+                    # This node is in fact the parent of our assertion
+                    if (hasattr(parent, 'body') and isinstance(parent.body, list) and
+                        any(stmt is stmt_node for stmt in parent.body)):
+                        # Loop through the parent body and insert the logging nodes
+                        # directly above the assertion
+                        for idx, stmt in enumerate(parent.body):
                             if stmt is stmt_node:
-                                container.body = container.body[:idx] + logging_nodes + container.body[idx:]
+                                parent.body = parent.body[:idx] + logging_nodes + parent.body[idx:]
                                 instrumented = True
                                 break
-                        break  # Stop looking for more containers once we've found the right one
+                        break
 
+    # Fix the tree and return the new source code
     if instrumented:
         ast.fix_missing_locations(tree)
         return ast.unparse(tree)
     else:
-        print(f"No matching assertion found for test {test_name} at line {assertion_line}")
+        print(f"No matching assertion found. {test_name} at line {assertion_line}")
         return None
 
 # Find a function by name in the AST. Again, we are not worried
@@ -173,70 +175,87 @@ def find_function_ast_in_module(source_code, target_name):
             return node, None  # function not in class
     return None, None
 
-def run_test_n_times_via_ast(source_code, test_function_name, n_runs=100, output_csv='log_output.csv'):
+# Run the code from the ast. Main runner function.
+def run(source_code, test_function_name, n_runs=100, output_dir="output"):
     # Parse the full source
     tree = ast.parse(source_code)
+
+    # Add the necessary standard imports to the top of the tree body
     tree.body = generate_import_nodes() + tree.body
 
+    # Fix the line numbers, etc. of the tree
     ast.fix_missing_locations(tree)
 
-    # Compile and execute the full module (with imports, helper functions, etc.)
-    compiled = compile(tree, filename="<ast>", mode="exec")
+    # Note that I used Claude to help with this next bit. I had a very different
+    # implementation at first, that needed to be revised.
+
+    # Compile and execute the module code.
+    # https://stackoverflow.com/questions/768634/parse-a-py-file-read-the-ast-modify-it-then-write-back-the-modified-source-c
+    code = compile(tree, filename="<ast>", mode="exec")
     func_namespace = {}
-    exec(compiled, func_namespace)
+    exec(code, func_namespace)
 
-    # Locate the test function and class again (in the now-executed namespace)
+    # Locate the test function and class again in the module
     func_node, class_name = find_function_ast_in_module(source_code, test_function_name)
-    if func_node is None:
-        raise ValueError(f"Test function '{test_function_name}' not found.")
 
+    # We need to instantiate the class if we have a method instead
+    # of a top level function, so these need to be handled separately.
     if class_name:
-        instance = func_namespace[class_name]()  # instantiate the class
+        instance = func_namespace[class_name]()
         test_func = getattr(instance, test_function_name)
     else:
         test_func = func_namespace[test_function_name]
 
     all_outputs = []
+    # Run the code n_runs times
     for i in range(n_runs):
         try:
             temp_out = StringIO()
+            # Redirects the print IO to temp_out
+            # Note to self: you cannot put a print statement in here,
+            # it will be redirected to temp_out too!
             with contextlib.redirect_stdout(temp_out):
                 test_func()
             all_outputs.append(temp_out.getvalue())
         except Exception as e:
             print(f"Run failed: {e}")
 
-    with open(f"output_{test_function_name}.txt", "w", encoding="utf-8") as f:
-        for i, output in enumerate(all_outputs):
-            f.write(output)
-            f.write("\n")
+    # If there is content to write, write it to an output txt fule
+    if len(all_outputs) > 0:
+        with open(os.path.join(output_dir, f"output_{test_function_name}.txt"), "w", encoding="utf-8") as f:
+            for i, output in enumerate(all_outputs):
+                f.write(output)
+                f.write("\n")
 
-def process_csv_and_run(csv_path, base_dir="", n_runs=100, max_tests=10):
+# Standard code to loop through the csv. Boiler-plate function mostly.
+def process_csv_and_run(csv_path, base_dir="", proj="output", n_runs=100, max_tests=10):
+    # Read the csv file, used the csv module instead of pandas, which would normally
+    # be the go-to.
     with open(csv_path, 'r', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         entries = list(reader)[:max_tests]
 
+    # Loop through the assertions
     for idx, row in enumerate(entries):
         filepath = os.path.join(base_dir, row['filepath'])
         testname = row['testname'].strip()
         line_number = int(row['line number'])
 
+        # Read the source code for the relevant filepath
         with open(filepath, "r", encoding="utf-8") as f:
             original_source = f.read()
 
         print(f"\n[{idx+1}] Instrumenting {filepath} at line {line_number} for test {testname}...")
 
-        # New: Do not overwrite file — keep it in memory
         new_source = instrumentor(original_source, testname, line_number)
         if new_source is None:
             print("Instrumentation failed, skipping.")
             continue
 
-        # Run from in-memory code
         try:
-            run_test_n_times_via_ast(new_source, testname, n_runs=n_runs, output_csv=f"output_log_test_{idx+1}.csv")
+            run(new_source, testname, n_runs=n_runs, output_dir=proj)
         except Exception as e:
-            print(f"Failed to run instrumented test {testname}: {e}")
+            print(f"Failed to run instrumented test {testname}. Error: {e}")
 
 
 # Note that this will only instrument assertions in the top-level
@@ -252,6 +271,7 @@ if __name__ == "__main__":
     process_csv_and_run(
         csv_path="../task2results/sonnet_assertions.csv",  # path to your CSV
         base_dir="../",                  # where the python files are relative to
+        proj="sonnet",
         n_runs=100,
-        max_tests=10
+        max_tests=1000
     )

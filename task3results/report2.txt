@@ -1,4 +1,33 @@
-*LLMs were used more considerably for this task than the prior. This is because
+Report for Task 3:
+
+Sonnet:
+For Sonnet, I ran 16 tests, each 100 times. The execution times were negligible - I did not do
+benchmark testing because none ran slow enough to indicate they were running
+any sort of heavy computation algorithm for testing. None of the tests
+that I documented appeared to be flaky in practice: the output values
+were fairly consistent. For a few of the tests, I created
+distribution graphs, but these were not very interesting as they exhibited very little
+variance in the distribution (most of them exhibited no variance whatsoever). No KS test
+was necessary due to this lack of variance. Note that for the output logs, each 'enter' delimited
+chunk is a run; the relevant variables for the assertions are printed (i.e. if there is a two
+variable comparison, there should be two lines for each chunk). I decided to print the min and
+max for any shaped variables (arrays, tensors, etc.) as I felt these summary statistics best
+captured relevant features for assertions (i.e. allClose, for example).
+
+Botorch:
+For Botorch, I ran 12 tests, each 100 times. Just like Sonnet, the execution times were
+negligible so I did not do further benchmark testing. Just like for Sonnet,
+there was very little variance in the arguments to the assertions, so the distributions
+were very boring.
+
+Magenta:
+I ran the instrumentor on Magenta, but could not run the runner on the project
+due to versioning issues (the python version, dependency versions, etc.) that
+magenta required were quite old, conflicting with the other projects. If you would like
+me to get it to work, I could spend some more time to do so, but it is probably not
+necessary for this starter task.
+
+*LLMs were used more for this task than the prior. This is because
 this task is a little simpler logic-wise, so I found that much of the LLM-generated
 code was satisfactory based on the goals for this task #3. Note that this is in part
 because I relaxed some of the scope paranoia from the previous task: given that we

@@ -1,0 +1,300 @@
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+
+{'min': np.float32(2.9999995), 'max': np.float32(2.9999995)}
+3.0
+

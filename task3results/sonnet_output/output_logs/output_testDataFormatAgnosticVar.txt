@@ -1,0 +1,300 @@
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+
+{'min': np.float32(-1.90417), 'max': np.float32(2.1409187)}
+{'min': np.float32(-1.9041698), 'max': np.float32(2.1409187)}
+

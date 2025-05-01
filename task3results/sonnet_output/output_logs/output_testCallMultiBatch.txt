@@ -1,0 +1,300 @@
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+
+
+{'min': np.float32(-0.6635067), 'max': np.float32(0.39363542)}
+

@@ -233,6 +233,7 @@ def trace_assertions(func_name, functions, call_graph, source_code, visited=None
 
 # Process a single test file and write assertions to CSV
 def process_file(filepath, writer):
+    print(filepath)
     # Parse the ast tree and fetch the source code
     tree, source_code = read_and_parse(filepath)
 
@@ -251,10 +252,11 @@ def process_file(filepath, writer):
     for func_name, func_node in functions.items():
         # If the function is a 'root' function, a test itself
         if 'test' in func_name.split('.')[-1]:
+            print('found test func')
             # Trace the assertions from this function through the call graph.
             assertions = trace_assertions(func_name, functions, call_graph, source_code)
             func_assertion_mappings[func_name] = []
-
+            print(len(assertions))
             # Loop through the assertions that we found
             for lineno, assert_string in assertions:
                 parts = func_name.split('.')
@@ -284,6 +286,7 @@ def process_file(filepath, writer):
     # Now write all the assertions to the csv file
     for func in func_assertion_mappings:
         for assertion in func_assertion_mappings[func]:
+            print("writing row")
             writer.writerow(assertion)
     for assertion in inheritance_assertions:
         writer.writerow(assertion)

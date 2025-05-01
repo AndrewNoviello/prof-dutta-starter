@@ -1,0 +1,500 @@
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+{'min': tensor(-0.1982), 'max': tensor(-0.1982)}
+

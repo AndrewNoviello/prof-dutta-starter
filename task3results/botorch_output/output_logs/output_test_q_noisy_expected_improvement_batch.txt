@@ -1,0 +1,500 @@
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+
+{'min': tensor(7.9866e-07), 'max': tensor(1.)}
+{'min': tensor(0.), 'max': tensor(1.)}
+{'min': tensor(7.9866e-07, dtype=torch.float64), 'max': tensor(1.0000, dtype=torch.float64)}
+{'min': tensor(0., dtype=torch.float64), 'max': tensor(1., dtype=torch.float64)}
+

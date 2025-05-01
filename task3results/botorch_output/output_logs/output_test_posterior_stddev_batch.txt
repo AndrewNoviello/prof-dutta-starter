@@ -1,0 +1,500 @@
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3904), 'max': tensor(0.9593)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+{'min': tensor(0.3775, dtype=torch.float64), 'max': tensor(0.8705, dtype=torch.float64)}
+

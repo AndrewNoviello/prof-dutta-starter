@@ -1,0 +1,300 @@
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
+{'min': np.float32(5.0), 'max': np.float32(5.0)}
+5.0
+
